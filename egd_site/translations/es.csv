@@ -73,7 +73,7 @@ apps/egd_site/egd_site/tools.py,"newsletter:dialog:body:error_adding_email_""{0}
 apps/egd_site/egd_site/tools.py,newsletter:dialog:title:newsletter_subscription,Suscripción a la newsletter
 apps/egd_site/egd_site/tools.py,newsletter:email:body:click_here_to_verify,Haz click aquí para confirmar tu email
 apps/egd_site/egd_site/tools.py,newsletter:email:body:verify_your_email,Es necesario que confirmes tu email para finalizar la suscripción
-apps/egd_site/egd_site/tools.py,newsletter:email:subject,Por favor&comma; confirma tu email (acción necesaria)
+apps/egd_site/egd_site/tools.py,newsletter:email:subject,"Por favor, confirma tu email (acción necesaria)"
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:email,Tu email
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:privacy_accept,He leído y acepto el tratamiento de mis datos personales con la finalidad descrita
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:privacy_text,"Sus datos serán tratados por FUNDACIÓN AYUDA EFECTIVA para enviarle nuestra newsletter. Podrá ejercer sus derechos a través del siguiente correo info @ ayudaefectiva.org, identificándose como suscriptor a la newsletter de effectivegivingday y concretando su solicitud. Para más información sobre el tratamiento de sus datos y sus derechos, consulte el siguiente enlace:"
@@ -83,7 +83,7 @@ apps/egd_site/egd_site/templates/includes/footer.html,newsletter:link:privacy_cl
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:stay_up_to_date,Mantente informado
 apps/egd_site/egd_site/www/es/press.md,press:intro,"Si trabajas para algún medio, estaremos encantados de organizar entrevistas con nuestros ponentes, facilitarte declaraciones y otros materiales o responder a tus preguntas. Por favor, completa este formulario y te conectaremos con el mejor contacto de prensa para tu país o tu área de interés."
 apps/egd_site/egd_site/www/es/press.md,press:title,Prensa
-apps/egd_site/egd_site/templates/includes/register.html,register:form:donation:question,¿Qué importe aproximado donas anualmente a organizaciones altamente efectivas? (Opcional&comma; EUR)
+apps/egd_site/egd_site/templates/includes/register.html,register:form:donation:question,"¿Qué importe aproximado donas anualmente a organizaciones altamente efectivas? (Opcional, EUR)"
 apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:a_bit_familiar,Algo
 apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:not_familiar,Poco
 apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:question,¿Cuánto conoces las ideas de la ayuda efectiva?
@@ -108,10 +108,10 @@ apps/egd_site/egd_site/tools.py,"registration:dialog:body:email_""{0}""_confirme
 apps/egd_site/egd_site/tools.py,registration:dialog:body:error_confirming_your_email.,Error en la confirmación de tu email.
 apps/egd_site/egd_site/tools.py,registration:dialog:title:registration_subscription,¡Gracias por registrarte!
 apps/egd_site/egd_site/tools.py,registration:email:body:click_here_to_verify,Haz clic para verificar tu email
-apps/egd_site/egd_site/tools.py,registration:email:body:verify_your_email,¡Gracias por tu interés en el Día Internacional de la Ayuda Efectiva!<br><br><strong>Por favor&comma; confirma tu dirección de email para completar tu registro</strong>:
-apps/egd_site/egd_site/tools.py,registration:email:subject,Por favor&comma; confirma tu registro (acción necesaria)
+apps/egd_site/egd_site/tools.py,registration:email:body:verify_your_email,"¡Gracias por tu interés en el Día Internacional de la Ayuda Efectiva!<br><br><strong>Por favor, confirma tu dirección de email para completar tu registro</strong>:"
+apps/egd_site/egd_site/tools.py,registration:email:subject,"Por favor, confirma tu registro (acción necesaria)"
 apps/egd_site/egd_site/templates/includes/section-about.html,section:about:intro,El Día Internacional de la Ayuda Efectiva es un evento online en el que podrás asistir a ponencias y conversaciones con algunas de las figuras clave en el campo de la filantropía efectiva.
-apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:1,Ponente principal: <strong>Michael Kremer&comma; Premio Nobel de Economía de 2019</strong>
+apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:1,"Ponente principal: <strong>Michael Kremer, Premio Nobel de Economía de 2019</strong>"
 apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:2,Un evento apoyado por las organizaciones líderes en filantropía efectiva y evaluación de proyectos benéficos
 apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:3,"Con ponencias de Johannes Ackva (<strong>Founders Pledge</strong>), Leah Edgerton (<strong>Animal Charity Evaluators</strong>) y Neil Buddy Shah (<strong>GiveWell</strong>)"
 apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:4,section:about:list:4
@@ -137,12 +137,12 @@ apps/egd_site/egd_site/templates/includes/speakers.html,speakers:3:description,<
 apps/egd_site/egd_site/templates/includes/speakers.html,speakers:3:intro,"Directora ejecutiva de Animal Charity"
 apps/egd_site/egd_site/templates/includes/speakers.html,speakers:4:description,<a href='https://founderspledge.com/'>Founders Pledge</a> es una comunidad global de emprendedores con el objetivo de encontrar y financiar soluciones a los problemas más urgentes del mundo.
 apps/egd_site/egd_site/templates/includes/speakers.html,speakers:4:intro,"Experto en Clima de Founders Pledge"
-apps/egd_site/egd_site/templates/includes/speakers.html,speakers:5:description,<a href='https://www.thelifeyoucansave.org/'>The Life You Can Save</a> hace que donar de forma inteligente sea fácil&comma; seleccionando un conjunto de organizaciones benéficas que salvan o mejoran vidas más por cada dólar.
+apps/egd_site/egd_site/templates/includes/speakers.html,speakers:5:description,"<a href='https://www.thelifeyoucansave.org/'>The Life You Can Save</a> hace que donar de forma inteligente sea fácil, seleccionando un conjunto de organizaciones benéficas que salvan o mejoran vidas más por cada dólar."
 apps/egd_site/egd_site/templates/includes/speakers.html,speakers:5:intro,"Director ejecutivo de The Life You Can Save"
 apps/egd_site/egd_site/templates/includes/speakers.html,speakers:6:intro,"Directora de operaciones de RC Forward"
 apps/egd_site/egd_site/templates/includes/speakers.html,speakers:7:description,<a href='https://www.1fortheworld.org/'>One for the World</a> es un movimiento de personas que aspiran a revolucionar las donaciones benéficas para acabar con la pobreza extrema. Sus miembros se comprometen a donar un 1% de sus ingresos a las organizaciones benéficas más efectivas.
 apps/egd_site/egd_site/templates/includes/speakers.html,speakers:7:intro,"One for the World, Executive Director"
-apps/egd_site/egd_site/templates/includes/speakers.html,speakers:8:description,La fundación <a href='https://ayudaefectiva.org/'>Ayuda Efectiva</a> selecciona y financia los programas humanitarios que&comma; con un mismo coste&comma; salvan más vidas o ayudan más a más personas.
+apps/egd_site/egd_site/templates/includes/speakers.html,speakers:8:description,"La fundación <a href='https://ayudaefectiva.org/'>Ayuda Efectiva</a> selecciona y financia los programas humanitarios que, con un mismo coste, salvan más vidas o ayudan más a más personas."
 apps/egd_site/egd_site/templates/includes/speakers.html,speakers:8:intro,"Presidente de Ayuda Efectiva"
 apps/egd_site/egd_site/templates/includes/speakers.html,speakers:9:description,<a href='https://www.effektiv-spenden.org/'>effektiv-spenden.org</a> permite a sus donantes en Alemania apoyar algunas de las organizaciones benéficas más efectivas del mundo con deducibilidad fiscal. Todas sus recomendaciones están validadas por expertos independientes de todo el mundo.
 apps/egd_site/egd_site/templates/includes/speakers.html,speakers:9:intro,"Director ejecutivo de effektiv-spenden.org"
