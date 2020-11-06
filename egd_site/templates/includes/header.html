@@ -37,16 +37,12 @@
 						<li class="nav-item">
 							<a class="nav-link" href="{{ url_lang }}/contact-us">{{ _('link:contact') }}</a>
 						</li>
-						<!-- <li class="nav-item">
+						{#<!-- <li class="nav-item">
 							<span class="navbar-text">·</span>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="{{ url_lang }}/get-involved">{{ _('link:get_involved') }}</a>
 						</li> -->
-						{% if site_env != "prod" %}
-						<li class="nav-item">
-							<span class="navbar-text">·</span>
-						</li>
 						<!-- <li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								Language:
@@ -58,13 +54,17 @@
 								</li>
 								{% endfor %}
 							</ul>
-						</li> -->
+						</li> -->#}
+						<li class="nav-item">
+							<span class="navbar-text">·</span>
+						</li>
 						{% for language in languages_meta %}
+						{%- if site_env != "prod" or (site_env == "prod" and language.code != "de") %}
 						<li class="nav-item{% if language.code == lang %} selected{% endif %}">
 							<a class="nav-link language" href="{{ language.url }}">{{ language.code|upper }}</a>
 						</li>
+						{%- endif %}
 						{% endfor %}
-						{% endif %}
 					</ul>
 				</div>
 			</div>
