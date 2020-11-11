@@ -3,15 +3,17 @@ footer{
 	background: #161E26;
 	text-align: center;
 }
-.site-info{
+.site-info {
+	color: white;
 	position: relative;
 	padding: 30px 0;
 	margin-bottom: 30px;
-	p{
+	p {
 		font-size: 13px;
 		color: #9e9e9e;
 	}
 	a {
+		padding: 0 10px;
 		text-transform: capitalize;
 		color: #fff;
 		&:hover {

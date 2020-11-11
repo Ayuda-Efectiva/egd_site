@@ -152,33 +152,13 @@ from frappe.website.context import add_metatags as frappe_add_metatags
 frappe.website.context.add_metatags = egd_add_metatags
 
 
-# def egd_add_preload_headers(response):
-# 	if is_app_for_actual_site():
-# 		from bs4 import BeautifulSoup
-# 		import re
-# 		try:
-# 			preload = []
-# 			soup = BeautifulSoup(response.data, "lxml")
-# 			for elem in soup.find_all('script', src=re.compile(".*")):
-# 				preload.append(("script", elem.get("src")))
+def egd_add_preload_headers(response):
+	"""Allow externals links preloading"""
+	frappe_add_preload_headers(response)
+	if is_app_for_actual_site() and "Link" in response.headers:
+		response.headers["Link"] = response.headers["Link"].replace("/http", "http")
 
-# 			for elem in soup.find_all('link', rel="stylesheet"):
-# 				preload.append(("style", elem.get("href")))
-
-# 			links = []
-# 			for type, link in preload:
-# 				links.append("<{}>; rel=preload; as={}".format(link, type))
-
-# 			if links:
-# 				response.headers["Link"] = ",".join(links)
-# 		except Exception:
-# 			import traceback
-# 			traceback.print_exc()
-# 	else:
-# 		frappe_add_preload_headers(response)
-
-# from frappe.website.render import add_preload_headers as frappe_add_preload_headers
-# frappe.website.render.add_preload_headers = egd_add_preload_headers
-
+from frappe.website.render import add_preload_headers as frappe_add_preload_headers
+frappe.website.render.add_preload_headers = egd_add_preload_headers
 
 # FRAPPE OVERRIDES>
