@@ -5,25 +5,78 @@
 			<div class="col-12">
 				<div class="section-title-header text-center">
 					<h2 class="section-title wow fadeInUp" data-wow-delay="0.2s">{{ _('get_involved:title') }}</h2>
+					{% if _('get_involved:intro') != 'get_involved:intro' %}
 					<p class="wow fadeInDown" data-wow-delay="0.2s">{{ _('get_involved:intro') }}</p>
+					{% endif %}
 				</div>
 			</div>
 		</div>
 		<div id="accordion">
-	
+
+
+			<!-- <div class="card">
+				<div data-target="#collapse-4" aria-controls="collapse-4" class="card-header-b" data-toggle="collapse" aria-expanded="false">
+					<div class="container">
+						<div class="row">
+							<div class="text col-12 pl-5">
+								<h4 class="mb-0">{{ _('get_involved:au:title') }}</h4>
+								<i class="opener-chevron-b lni-chevron-right"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div aria-labelledby="heading-4" id="collapse-4" class="collapse{{ ' show' if lang == 'en' else '' }}" data-parent="#accordion">
+					<div class="card-body">
+						<h2>...</h2>
+						<p>...</p>
+					</div>
+				</div>
+			</div> -->
+
+
+			<div class="card">
+				<div data-target="#collapse-3" aria-controls="collapse-3" class="card-header-b" data-toggle="collapse" aria-expanded="false">
+					<div class="container">
+						<div class="row">
+							<div class="text col-12 pl-5">
+								<h4 class="mb-0">{{ _('get_involved:de_at_ch:title') }}</h4>
+								<i class="opener-chevron-b lni-chevron-right"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div aria-labelledby="heading-3" id="collapse-3" class="collapse{{ ' show' if lang == 'de' else '' }}" data-parent="#accordion">
+					<div class="card-body">
+						<h2>Spenden</h2>
+						<p>Über <a href="https://www.effektiv-spenden.org">effektiv-spenden.org</a>
+							ist es möglich an einige der effektivsten Hilfsorganisatiionen der
+							Welt in den Bereichen Entwicklungszusammenarbeit, Tierschutz und
+							Klimaschutz zu spenden. Alle Spenden können in Deutschland
+							steuerlich geltend gemacht werden.
+						</p>
+						<hr>
+						<p>Bei Fragen schreib einfach eine E-Mail an 
+							<a href="mailto:info@effektiv-spenden.org">info@effektiv-spenden.org</a>
+							oder vereinbare eine individuelle 
+							<a href="https://www.effektiv-spenden.org/spendenberatung">Spendenberatung</a>.
+						</p>
+					</div>
+				</div>
+			</div>
+
 
 			<div class="card">
 				<div data-target="#collapse-1" aria-controls="collapse-1" class="card-header-b" data-toggle="collapse" aria-expanded="false">
 					<div class="container">
 						<div class="row">
 							<div class="text col-12 pl-5">
-								<h4 class="mb-0">{{ _('get_involved:es:title') }}España</h4>
+								<h4 class="mb-0">{{ _('get_involved:es:title') }}</h4>
 								<i class="opener-chevron-b lni-chevron-right"></i>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div aria-labelledby="heading-1" id="collapse-1" class="collapse" data-parent="#accordion">
+				<div aria-labelledby="heading-1" id="collapse-1" class="collapse{{ ' show' if lang == 'es' else '' }}" data-parent="#accordion">
 					<div class="card-body">
 						<h2>Dona</h2>
 						<p><a href="https://ayudaefectiva.org">Ayuda Efectiva</a> selecciona y financia 
@@ -48,64 +101,25 @@
 				</div>
 			</div>
 
-			<div class="card">
+			<!-- <div class="card">
 				<div data-target="#collapse-2" aria-controls="collapse-2" class="card-header-b" data-toggle="collapse" aria-expanded="false">
 					<div class="container">
 						<div class="row">
 							<div class="text col-12 pl-5">
-								<h4 class="mb-0">{{ _('get_involved:us_ca_gb:title') }}USA, Canadá y Reino Unido</h4>
+								<h4 class="mb-0">{{ _('get_involved:us_ca_gb:title') }}</h4>
 								<i class="opener-chevron-b lni-chevron-right"></i>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div aria-labelledby="heading-2" id="collapse-2" class="collapse" data-parent="#accordion">
+				<div aria-labelledby="heading-2" id="collapse-2" class="collapse{{ ' show' if lang == 'en' else '' }}" data-parent="#accordion">
 					<div class="card-body">
 						<h2>...</h2>
 						<p>...</p>
 					</div>
 				</div>
-			</div>
+			</div> -->
 
-
-			<div class="card">
-				<div data-target="#collapse-3" aria-controls="collapse-3" class="card-header-b" data-toggle="collapse" aria-expanded="false">
-					<div class="container">
-						<div class="row">
-							<div class="text col-12 pl-5">
-								<h4 class="mb-0">{{ _('get_involved:de_at_ch:title') }}Alemania, Austria y Suiza</h4>
-								<i class="opener-chevron-b lni-chevron-right"></i>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div aria-labelledby="heading-3" id="collapse-3" class="collapse" data-parent="#accordion">
-					<div class="card-body">
-						<h2>...</h2>
-						<p>...</p>
-					</div>
-				</div>
-			</div>
-
-
-			<div class="card">
-				<div data-target="#collapse-4" aria-controls="collapse-4" class="card-header-b" data-toggle="collapse" aria-expanded="false">
-					<div class="container">
-						<div class="row">
-							<div class="text col-12 pl-5">
-								<h4 class="mb-0">{{ _('get_involved:au:title') }}Australia</h4>
-								<i class="opener-chevron-b lni-chevron-right"></i>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div aria-labelledby="heading-4" id="collapse-4" class="collapse" data-parent="#accordion">
-					<div class="card-body">
-						<h2>...</h2>
-						<p>...</p>
-					</div>
-				</div>
-			</div>
 
 		</div>
 	</div>

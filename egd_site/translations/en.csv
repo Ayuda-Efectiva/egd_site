@@ -7,7 +7,7 @@ apps/egd_site/egd_site/templates/includes/agenda.html,agenda:2:intro,"<strong>Jo
 apps/egd_site/egd_site/templates/includes/agenda.html,agenda:2:speakers,"<strong>Speaker</strong>: Johannes Ackva, <a href='https://founderspledge.com/'>Founders Pledge</a>"
 apps/egd_site/egd_site/templates/includes/agenda.html,agenda:2:title,The ABC of High Impact Climate Philanthropy and where to give now
 apps/egd_site/egd_site/templates/includes/agenda.html,agenda:3:description,"With so many animals suffering around the globe, how can I as a donor make a big impact for animals? In this talk, Leah shares Animal Charity Evaluators' methods for evaluating organizations and presents their brand new 2020 charity recommendations."
-apps/egd_site/egd_site/templates/includes/agenda.html,agenda:3:hosts,"<strong>Host</strong>: Katja Jäger"
+apps/egd_site/egd_site/templates/includes/agenda.html,agenda:3:hosts,<strong>Host</strong>: Katja Jäger
 apps/egd_site/egd_site/templates/includes/agenda.html,agenda:3:intro,"<strong>Leah Edgerton</strong>, Executive Director Animal Charity Evaluators"
 apps/egd_site/egd_site/templates/includes/agenda.html,agenda:3:speakers,"<strong>Speaker</strong>: Leah Edgerton, <a href='https://animalcharityevaluators.org/'>Animal Charity Evaluators</a>"
 apps/egd_site/egd_site/templates/includes/agenda.html,agenda:3:title,Animal welfare: Our recommendations for the giving season
@@ -22,9 +22,9 @@ apps/egd_site/egd_site/templates/includes/agenda.html,agenda:5:hosts,"<strong>Ho
 apps/egd_site/egd_site/templates/includes/agenda.html,agenda:5:intro,"<strong>Michael Kremer</strong>, University Professor in Economics and the College and the Harris School of Public Policy, Director of the Development Innovation Lab, University of Chicago"
 apps/egd_site/egd_site/templates/includes/agenda.html,agenda:5:speakers,"<strong>Speaker</strong>: Michael Kremer, University Professor in Economics and the College and the Harris School of Public Policy, Director of the Development Innovation Lab, University of Chicago"
 apps/egd_site/egd_site/templates/includes/agenda.html,agenda:5:title,Keynote speaker: Nobel Prize winner Professor Michael Kremer
-apps/egd_site/egd_site/templates/includes/agenda.html,agenda:6:description,agenda:6:description
-apps/egd_site/egd_site/templates/includes/agenda.html,agenda:6:intro,"<strong>Charlie Bresler</strong>, Executive Director, The Life You Can Safe"
-apps/egd_site/egd_site/templates/includes/agenda.html,agenda:6:speakers,"<strong>Speaker</strong>: Charlie Bresler, <a href='https://www.thelifeyoucansave.org/'>The Life You Can Safe</a>"
+apps/egd_site/egd_site/templates/includes/agenda.html,agenda:6:description,"Charlie Bresler, Ph.D., Executive Director of Peter Singer’s The Life You Can Save, will discuss the specific opportunities available to everyone to save lives from the comfort of their own living room. Too good to be true...listen!"
+apps/egd_site/egd_site/templates/includes/agenda.html,agenda:6:intro,"<strong>Charlie Bresler</strong>, Executive Director, The Life You Can Save"
+apps/egd_site/egd_site/templates/includes/agenda.html,agenda:6:speakers,"<strong>Speaker</strong>: Charlie Bresler, <a href='https://www.thelifeyoucansave.org/'>The Life You Can Save</a>"
 apps/egd_site/egd_site/templates/includes/agenda.html,agenda:6:title,How you can make a difference today
 apps/egd_site/egd_site/templates/includes/agenda.html,agenda:see_into_your_local_time,see in your local time
 apps/egd_site/egd_site/templates/includes/contact.html,contact:form:privacy:accept,I have read and accept the treatment of my personal data
@@ -32,7 +32,7 @@ apps/egd_site/egd_site/templates/includes/contact.html,contact:form:privacy:read
 apps/egd_site/egd_site/templates/includes/contact.html,contact:form:select_your_country,Select your country
 apps/egd_site/egd_site/templates/includes/contact.html,contact:form:submit,Send message
 apps/egd_site/egd_site/templates/includes/contact.html,contact:form:submitted_successfully_message,Message sent successfully. We will contact you as soon as possible.
-apps/egd_site/egd_site/www/en/contact-us.md,contact:title,Contact us
+apps/egd_site/egd_site/www/es/contact-us.md,contact:title,Contact us
 apps/egd_site/egd_site/templates/includes/cookies.message.html,cookies:box:accept,Accept
 apps/egd_site/egd_site/templates/includes/cookies.message.html,cookies:box:link:read_more,Read cookies page for more info
 apps/egd_site/egd_site/templates/includes/cookies.message.html,cookies:box:message,This site uses its own and third-party cookies to offer you a better service.
@@ -48,13 +48,19 @@ apps/egd_site/egd_site/templates/includes/register.html,form:select_option,Selec
 apps/egd_site/egd_site/templates/includes/contact.html,form:subject,Subject
 apps/egd_site/egd_site/public/js/web.js,form:submit:error,Error submitting...
 apps/egd_site/egd_site/public/js/web.js,form:submit:sending,Sending...
+apps/egd_site/egd_site/templates/includes/get-involved.html,get_involved:au:title,Australia
+apps/egd_site/egd_site/templates/includes/get-involved.html,get_involved:de_at_ch:title,"Germany, Austria & Switzerland"
+apps/egd_site/egd_site/templates/includes/get-involved.html,get_involved:es:title,Spain
+apps/egd_site/egd_site/templates/includes/get-involved.html,get_involved:intro,
+apps/egd_site/egd_site/templates/includes/get-involved.html,get_involved:title,Get involved
+apps/egd_site/egd_site/templates/includes/get-involved.html,get_involved:us_ca_gb:title,"USA, Canada & UK"
 apps/egd_site/egd_site/templates/includes/section-about.html,global:image_credit,Credit:
 apps/egd_site/egd_site/templates/includes/hero.html,hero:intro,Give with your head as well as your heart: Discover how the ideas of effective giving can help you maximize your impact when donating to the causes you care about
 apps/egd_site/egd_site/templates/includes/hero.html,hero:place_date_extra_date,"November 30, 2020"
 apps/egd_site/egd_site/templates/includes/hero.html,hero:place_date_extra_place,Free online event
 apps/egd_site/egd_site/templates/includes/hero.html,hero:place_date_extra_time,6:45 p.m. CET
 apps/egd_site/egd_site/templates/includes/hero.html,hero:register_button,REGISTER NOW
-apps/egd_site/egd_site/templates/includes/hero.html,hero:title,International Effective Giving Day
+apps/egd_site/egd_site/__init__.py,hero:title,International Effective Giving Day
 apps/egd_site/egd_site/templates/includes/header.html,link:agenda,Agenda
 apps/egd_site/egd_site/templates/includes/header.html,link:contact,Contact
 apps/egd_site/egd_site/templates/includes/footer.html,link:cookies,Cookies
@@ -64,7 +70,7 @@ apps/egd_site/egd_site/templates/includes/footer.html,link:legal,Legal
 apps/egd_site/egd_site/templates/includes/header.html,link:press,Press
 apps/egd_site/egd_site/templates/includes/footer.html,link:privacy,privacy
 apps/egd_site/egd_site/templates/includes/section-about.html,link:read_more,Read more
-apps/egd_site/egd_site/templates/includes/header.html,link:register,Register
+apps/egd_site/egd_site/templates/includes/footer.html,link:register,Register
 apps/egd_site/egd_site/templates/includes/header.html,link:speakers,Speakers
 apps/egd_site/egd_site/templates/includes/footer.html,link:view,view
 apps/egd_site/egd_site/tools.py,"newsletter:dialog:body:email_""{0}""_subscribed_ok","Your email ""{0}"" was successfully subscribed"
@@ -81,8 +87,8 @@ apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:submit,Sub
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:submitted_successfully_message,Soon you will receive a an email for confirmation. Thank you very much for your registration.
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:link:privacy_clause,privacy clause
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:stay_up_to_date,Stay up to date
-apps/egd_site/egd_site/www/en/press.md,press:intro,"We are happy to respond to interview requests, provide quotes or answer questions. Please fill in this form and we will put you in touch with the best press contact for your country or area of interest."
-apps/egd_site/egd_site/www/en/press.md,press:title,Press
+apps/egd_site/egd_site/www/es/press.md,press:intro,"We are happy to respond to interview requests, provide quotes or answer questions. Please fill in this form and we will put you in touch with the best press contact for your country or area of interest."
+apps/egd_site/egd_site/www/es/press.md,press:title,Press
 apps/egd_site/egd_site/templates/includes/register.html,register:form:donation:question,How much (if anything) do you currently give per year to charities you know are highly effective? (USD)
 apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:a_bit_familiar,Somewhat familiar
 apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:not_familiar,Not familiar
@@ -101,8 +107,8 @@ apps/egd_site/egd_site/templates/includes/register.html,register:form:select_cou
 apps/egd_site/egd_site/templates/includes/register.html,register:form:select_occupation,Select your occupation
 apps/egd_site/egd_site/templates/includes/register.html,register:form:submit,Register
 apps/egd_site/egd_site/templates/includes/register.html,register:form:submitted_successfully_message,<strong>Thank you for registering!</strong> You you will receive a confirmation email within a few minutes. A few days before the event you will also receive the instructions on how to join it online.
-apps/egd_site/egd_site/www/en/register.md,register:intro,"If you would like to attend the International Effective Giving Day event on November 30, please register by filling in the following form. You will receive a confirmation email and we will send the link to join the event to that same email address a few days before the event."
-apps/egd_site/egd_site/www/en/register.md,register:title,Register
+apps/egd_site/egd_site/templates/includes/register.html,register:intro,"If you would like to attend the International Effective Giving Day event on November 30, please register by filling in the following form. You will receive a confirmation email and we will send the link to join the event to that same email address a few days before the event."
+apps/egd_site/egd_site/templates/includes/register.html,register:title,Register
 apps/egd_site/egd_site/tools.py,"registration:dialog:body:email_""{0}""_confirmed_ok","Email ""{0}"" confirmed successfully."
 apps/egd_site/egd_site/tools.py,"registration:dialog:body:email_""{0}""_confirmed_previously","Email ""{0}"" confirmed previously."
 apps/egd_site/egd_site/tools.py,registration:dialog:body:error_confirming_your_email.,Error with your email confirmation.
