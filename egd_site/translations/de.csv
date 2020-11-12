@@ -7,7 +7,7 @@ apps/egd_site/egd_site/templates/includes/agenda.html,agenda:2:intro,"<strong>Jo
 apps/egd_site/egd_site/templates/includes/agenda.html,agenda:2:speakers,"<strong>Speaker</strong>: Johannes Ackva, <a href='https://founderspledge.com/'>Founders Pledge</a>"
 apps/egd_site/egd_site/templates/includes/agenda.html,agenda:2:title,The ABC of High Impact Climate Philanthropy and where to give now
 apps/egd_site/egd_site/templates/includes/agenda.html,agenda:3:description,"With so many animals suffering around the globe, how can I as a donor make a big impact for animals? In this talk, Leah shares Animal Charity Evaluators' methods for evaluating organizations and presents their brand new 2020 charity recommendations."
-apps/egd_site/egd_site/templates/includes/agenda.html,agenda:3:hosts,"<strong>Host</strong>: Katja Jäger"
+apps/egd_site/egd_site/templates/includes/agenda.html,agenda:3:hosts,<strong>Host</strong>: Katja Jäger
 apps/egd_site/egd_site/templates/includes/agenda.html,agenda:3:intro,"<strong>Leah Edgerton</strong>, Executive Director Animal Charity Evaluators"
 apps/egd_site/egd_site/templates/includes/agenda.html,agenda:3:speakers,"<strong>Speaker</strong>: Leah Edgerton, <a href='https://animalcharityevaluators.org/'>Animal Charity Evaluators</a>"
 apps/egd_site/egd_site/templates/includes/agenda.html,agenda:3:title,Animal welfare: Our recommendations for the giving season
@@ -48,13 +48,19 @@ apps/egd_site/egd_site/templates/includes/register.html,form:select_option,Wähl
 apps/egd_site/egd_site/templates/includes/contact.html,form:subject,Betreff
 apps/egd_site/egd_site/public/js/web.js,form:submit:error,Fehler...
 apps/egd_site/egd_site/public/js/web.js,form:submit:sending,Sendet...
+apps/egd_site/egd_site/templates/includes/get-involved.html,get_involved:au:title,Australia
+apps/egd_site/egd_site/templates/includes/get-involved.html,get_involved:de_at_ch:title,"Germany, Austria & Switzerland"
+apps/egd_site/egd_site/templates/includes/get-involved.html,get_involved:es:title,Spain
+apps/egd_site/egd_site/templates/includes/get-involved.html,get_involved:intro,
+apps/egd_site/egd_site/templates/includes/get-involved.html,get_involved:title,Mach mit!
+apps/egd_site/egd_site/templates/includes/get-involved.html,get_involved:us_ca_gb:title,"USA, Canada & UK"
 apps/egd_site/egd_site/templates/includes/section-about.html,global:image_credit,Credit:
-apps/egd_site/egd_site/templates/includes/hero.html,hero:intro,"Gutes tun braucht Herz und Kopf: Finde heraus wie du mit Spenden an die weltweit effektivsten Hilfsorganisationen die Welt nicht nur ein bisschen besser machen kannst."
+apps/egd_site/egd_site/templates/includes/hero.html,hero:intro,Gutes tun braucht Herz und Kopf: Finde heraus wie du mit Spenden an die weltweit effektivsten Hilfsorganisationen die Welt nicht nur ein bisschen besser machen kannst.
 apps/egd_site/egd_site/templates/includes/hero.html,hero:place_date_extra_date,30. November 2020
 apps/egd_site/egd_site/templates/includes/hero.html,hero:place_date_extra_place,Virtuelles Event
 apps/egd_site/egd_site/templates/includes/hero.html,hero:place_date_extra_time,18:45 Uhr
 apps/egd_site/egd_site/templates/includes/hero.html,hero:register_button,Jetzt registrieren
-apps/egd_site/egd_site/templates/includes/hero.html,hero:title,International Effective Giving Day
+apps/egd_site/egd_site/__init__.py,hero:title,International Effective Giving Day
 apps/egd_site/egd_site/templates/includes/header.html,link:agenda,Agenda
 apps/egd_site/egd_site/templates/includes/header.html,link:contact,Kontakt
 apps/egd_site/egd_site/templates/includes/footer.html,link:cookies,Cookies
@@ -64,7 +70,7 @@ apps/egd_site/egd_site/templates/includes/footer.html,link:legal,AGB
 apps/egd_site/egd_site/templates/includes/header.html,link:press,Presse
 apps/egd_site/egd_site/templates/includes/footer.html,link:privacy,Datenschutzhinweise
 apps/egd_site/egd_site/templates/includes/section-about.html,link:read_more,Mehr erfahren
-apps/egd_site/egd_site/templates/includes/header.html,link:register,Registrieren
+apps/egd_site/egd_site/templates/includes/footer.html,link:register,Registrieren
 apps/egd_site/egd_site/templates/includes/header.html,link:speakers,Referenten
 apps/egd_site/egd_site/templates/includes/footer.html,link:view,view
 apps/egd_site/egd_site/tools.py,"newsletter:dialog:body:email_""{0}""_subscribed_ok","Du hast Dich mit Deiner E-Mail ""{0}"" erfolgreich angemeldet"
@@ -116,7 +122,7 @@ apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:
 apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:3,"Weitere Expertinnen: Johannes Ackva (Climate Lead <strong>Founders Pledge</strong>), Leah Edgerton (Executive Director <strong>Animal Charity Evaluators</strong>), Neil Buddy Shah (Managing Director, <strong>GiveWell</strong>)"
 apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:4,section:about:list:4
 apps/egd_site/egd_site/templates/includes/section-about.html,section:about:title,Über die Veranstaltung
-apps/egd_site/egd_site/templates/includes/section-agenda.html,section:agenda:intro,"Nimm Dir am Abend des 30. November 2 Stunden Zeit um von weltweit führenden Expertinnen zu erfahren wie du mit effektiven Spenden dazu beitragen kannst einige der drängendsten Probleme unserer Zeit zu bekämpfen.<br><br>Alle Vorträge sind in englischer Sprache."
+apps/egd_site/egd_site/templates/includes/section-agenda.html,section:agenda:intro,Nimm Dir am Abend des 30. November 2 Stunden Zeit um von weltweit führenden Expertinnen zu erfahren wie du mit effektiven Spenden dazu beitragen kannst einige der drängendsten Probleme unserer Zeit zu bekämpfen.<br><br>Alle Vorträge sind in englischer Sprache.
 apps/egd_site/egd_site/templates/includes/section-agenda.html,section:agenda:title,Agenda
 apps/egd_site/egd_site/templates/includes/section-partners.html,section:partners:organized_by,Organisiert von
 apps/egd_site/egd_site/templates/includes/section-partners.html,section:partners:supported_by,Unterstützt von
