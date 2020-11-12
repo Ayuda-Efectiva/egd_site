@@ -27,15 +27,15 @@ apps/egd_site/egd_site/templates/includes/agenda.html,agenda:6:intro,"<strong>Ch
 apps/egd_site/egd_site/templates/includes/agenda.html,agenda:6:speakers,"<strong>Speaker</strong>: Charlie Bresler, <a href='https://www.thelifeyoucansave.org/'>The Life You Can Safe</a>"
 apps/egd_site/egd_site/templates/includes/agenda.html,agenda:6:title,How you can make a difference today
 apps/egd_site/egd_site/templates/includes/agenda.html,agenda:see_into_your_local_time,see in your local time
-apps/egd_site/egd_site/templates/includes/contact.html,contact:form:privacy:accept,I have read and accept the treatment of my personal data
-apps/egd_site/egd_site/templates/includes/contact.html,contact:form:privacy:read_more,Read more...
+apps/egd_site/egd_site/templates/includes/contact.html,contact:form:privacy:accept,Ich habe die Angaben bezüglich der Verarbeitung meiner persönlichen Daten für den beschriebenen Zweck gelesen und akzeptiere sie.
+apps/egd_site/egd_site/templates/includes/contact.html,contact:form:privacy:read_more,Mehr erfahren...
 apps/egd_site/egd_site/templates/includes/contact.html,contact:form:select_your_country,Wähle ein Land aus
 apps/egd_site/egd_site/templates/includes/contact.html,contact:form:submit,Absenden
 apps/egd_site/egd_site/templates/includes/contact.html,contact:form:submitted_successfully_message,Deine Nachricht wurde versendet. Wir werden uns schnellstmöglich bei dir melden.
 apps/egd_site/egd_site/www/es/contact-us.md,contact:title,Kontakt
 apps/egd_site/egd_site/templates/includes/cookies.message.html,cookies:box:accept,Accept
-apps/egd_site/egd_site/templates/includes/cookies.message.html,cookies:box:link:read_more,Read cookies page for more info
-apps/egd_site/egd_site/templates/includes/cookies.message.html,cookies:box:message,This site uses its own and third-party cookies to offer you a better service.
+apps/egd_site/egd_site/templates/includes/cookies.message.html,cookies:box:link:read_more,Lese die Cookies-Seite für weitere Informationen
+apps/egd_site/egd_site/templates/includes/cookies.message.html,cookies:box:message,"Diese Website verwendet eigene und fremde Cookies, um dir einen besseren Service zu bieten."
 apps/egd_site/egd_site/templates/includes/cookies.message.html,cookies:box:title,Cookies
 apps/egd_site/egd_site/tools.py,dialog:body:go_to_homepage,Zurück zur Startseite.
 apps/egd_site/egd_site/templates/includes/contact.html,form:email,E-Mail
@@ -81,12 +81,12 @@ apps/egd_site/egd_site/tools.py,newsletter:email:body:click_here_to_verify,Hier 
 apps/egd_site/egd_site/tools.py,newsletter:email:body:verify_your_email,Um Deine Anmeldung abzuschließen prüfe bitte deine E-Mails.
 apps/egd_site/egd_site/tools.py,newsletter:email:subject,E-Mail Bestätigung (Handlung erforderlich)
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:email,Deine E-Mail
-apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:privacy_accept,I have read and accept the processing of my personal data for the described purpose
-apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:privacy_text,"Your data will be processed by FUNDACIÓN AYUDA EFECTIVA to send you the newsletter and event notifications. You can exercise your rights through the following email info @ ayudaefectiva.org, identifying yourself as a subscriber to the effectivegivingday.org newsletter and specifying your request. For more information about the treatment of your data and your rights, please read the following link:"
+apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:privacy_accept,Ich habe die Angaben bezüglich der Verarbeitung meiner persönlichen Daten für den beschriebenen Zweck gelesen und akzeptiere sie.
+apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:privacy_text,"Deine Daten werden von der FUNDACIÓN AYUDA EFECTIVA verarbeitet, um dir den Newsletter und Veranstaltungshinweise zuzusenden. Du kannst deine Rechte durch die folgende E-Mail info @ ayudaefectiva.org ausüben, indem du dich als Abonnent des effectivegivingday.org Newsletters identifizierst und deine Anfrage spezifizierst. Für weitere Informationen über die Behandlung deiner Daten und deine Rechte lese bitte den folgenden Link"
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:submit,Anmelden
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:submitted_successfully_message,Besten Dank für deine Anmeldung. Um diese abzuschließen haben wir dir gerade eine E-Mail zur Bestätigung geschickt.
-apps/egd_site/egd_site/templates/includes/footer.html,newsletter:link:privacy_clause,privacy clause
-apps/egd_site/egd_site/templates/includes/footer.html,newsletter:stay_up_to_date,Bleib auf dem neusten Stand
+apps/egd_site/egd_site/templates/includes/footer.html,newsletter:link:privacy_clause,Datenschutzhinweise
+apps/egd_site/egd_site/templates/includes/footer.html,newsletter:stay_up_to_date,Bleib auf dem neusten Stand!
 apps/egd_site/egd_site/www/es/press.md,press:intro,"Für Presseanfragen nutze bitte das untenstehende Formular und wir werden dir schnellstmöglich dabei helfen den richtigen Interviewpartner zu finden, Fragen zu beantworten oder Zitate, Bilder etc. zur Verfügung zu stellen."
 apps/egd_site/egd_site/www/es/press.md,press:title,Presse
 apps/egd_site/egd_site/templates/includes/register.html,register:form:donation:question,"Wie viel spendest du bisher jedes Jahr an ""effektive Hilfsorganisationen"" (US-Dollar)?"
@@ -100,9 +100,9 @@ apps/egd_site/egd_site/templates/includes/register.html,register:form:occupation
 apps/egd_site/egd_site/templates/includes/register.html,register:form:occupation:student,Student oder Auszubildende
 apps/egd_site/egd_site/templates/includes/register.html,register:form:organization,Arbeitgeber
 apps/egd_site/egd_site/templates/includes/register.html,register:form:organization_title,Titel
-apps/egd_site/egd_site/templates/includes/register.html,register:form:privacy_accept,I have read and accept the processing of my personal data for the purposes described
-apps/egd_site/egd_site/templates/includes/register.html,register:form:privacy_clause_link,privacy clause
-apps/egd_site/egd_site/templates/includes/register.html,register:form:privacy_text,"Your data will be treated by FUNDACIÓN AYUDA EFECTIVA to manage your registration, as well as to keep you informed about this and future related events. You can exercise your rights by using the following email address info @ ayudaefectiva.org, identifying yourself as a registered user of the effectivegivingday.org website, and specifying your request. For more information about the treatment of your data, please please read the following link:"
+apps/egd_site/egd_site/templates/includes/register.html,register:form:privacy_accept,Ich habe die Angaben bezüglich der Verarbeitung meiner persönlichen Daten für den beschriebenen Zweck gelesen und akzeptiere sie.
+apps/egd_site/egd_site/templates/includes/register.html,register:form:privacy_clause_link,Datenschutzhinweise
+apps/egd_site/egd_site/templates/includes/register.html,register:form:privacy_text,"Deine Daten werden von der FUNDACIÓN AYUDA EFECTIVA behandelt, um deine Anmeldung zu verarbeiten und um dich über diese und zukünftige Veranstaltungen auf dem Laufenden zu halten. Du kannst deine Rechte ausüben, indem du die folgende E-Mail-Adresse info @ ayudaefectiva.org kontaktierst, dich als registrierter Benutzer der Website effectivegivingday.org ausweist und deine Anfrage spezifizierst. Für weitere Informationen über die Behandlung deiner Daten lese bitte den folgenden Link:"
 apps/egd_site/egd_site/templates/includes/register.html,register:form:select_country,Wähle ein Land aus
 apps/egd_site/egd_site/templates/includes/register.html,register:form:select_occupation,Beschäftigung
 apps/egd_site/egd_site/templates/includes/register.html,register:form:submit,Registrieren
@@ -111,11 +111,11 @@ apps/egd_site/egd_site/templates/includes/register.html,register:intro,"Um am In
 apps/egd_site/egd_site/templates/includes/register.html,register:title,Registrieren
 apps/egd_site/egd_site/tools.py,"registration:dialog:body:email_""{0}""_confirmed_ok","Email ""{0}"" confirmed successfully."
 apps/egd_site/egd_site/tools.py,"registration:dialog:body:email_""{0}""_confirmed_previously","Email ""{0}"" confirmed previously."
-apps/egd_site/egd_site/tools.py,registration:dialog:body:error_confirming_your_email.,Error with your email confirmation.
-apps/egd_site/egd_site/tools.py,registration:dialog:title:registration_subscription,Registration
-apps/egd_site/egd_site/tools.py,registration:email:body:click_here_to_verify,Click here to verify your email
-apps/egd_site/egd_site/tools.py,registration:email:body:verify_your_email,Thank you for your interest in the International Effective Giving Day! <strong>Please confirm your email address to complete your registration</strong>:
-apps/egd_site/egd_site/tools.py,registration:email:subject,Please confirm your email address to complete your registration
+apps/egd_site/egd_site/tools.py,registration:dialog:body:error_confirming_your_email.,Fehler bei der Bestätigung deiner E-Mail.
+apps/egd_site/egd_site/tools.py,registration:dialog:title:registration_subscription,Registrierung
+apps/egd_site/egd_site/tools.py,registration:email:body:click_here_to_verify,Hier klicken um deine E-Mail zu bestätigen
+apps/egd_site/egd_site/tools.py,registration:email:body:verify_your_email,Vielen Dank für dein Interesse am Effective Giving Day! <strong>Bitte bestätige deine E-Mail um deine Registrierung abzuschließen</strong>:
+apps/egd_site/egd_site/tools.py,registration:email:subject,"Bitte bestätige deine E-Mail-Adresse, um deine Anmeldung abzuschließen."
 apps/egd_site/egd_site/templates/includes/section-about.html,section:about:intro,Der Effective Giving Day ist eine virtuelle Konferenz mit einigen der weltweit renommiertesten Expertinnen wenn es um die Evaluierung von Hilfsorganisationen und deren Arbeit geht.
 apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:1,Keynote-Speaker: Nobelpreisträger Professor <strong>Michael Kremer</strong>
 apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:2,Unterstützt von den weltweit führenden Organisationen im Bereich effektiver Philanthropie und der Evaluierung von Hilfsorganisationen
