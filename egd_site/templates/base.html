@@ -6,11 +6,11 @@
 	<link href="{{ url }}{{ "/" + path if path else "" }}" rel="canonical">
 
 	{# https://support.google.com/webmasters/answer/182192?hl=en #}
-	{%- for language in languages_meta %}
-	{%- if site_env != "prod" or (site_env == "prod" and language.code != "de") %}
+	{% for language in languages_meta -%}
+	{#<!-- %- if site_env != "prod" or (site_env == "prod" and language.code != "de") % -->-#}
 	<link rel="alternate" href="{{ language.url }}" hreflang="{{ language.hreflang }}" />
-	{%- endif %}
-	{%- endfor %}
+	{#<!-- %- endif % -->-#}
+	{% endfor %}
 
 	{%- block meta_block %}{% include "templates/includes/meta_block.html" %}{% endblock %}
 
