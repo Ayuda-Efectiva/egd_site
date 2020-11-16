@@ -53,7 +53,7 @@ apps/egd_site/egd_site/templates/includes/get-involved.html,get_involved:de_at_c
 apps/egd_site/egd_site/templates/includes/get-involved.html,get_involved:es:title,Spain
 apps/egd_site/egd_site/templates/includes/get-involved.html,get_involved:intro,
 apps/egd_site/egd_site/templates/includes/get-involved.html,get_involved:title,Mach mit!
-apps/egd_site/egd_site/templates/includes/get-involved.html,get_involved:us_ca_gb:title,"USA, Canada & UK"
+apps/egd_site/egd_site/templates/includes/get-involved.html,get_involved:us_ca_gb:title,"USA, UK, Australia & Canada"
 apps/egd_site/egd_site/templates/includes/section-about.html,global:image_credit,Credit:
 apps/egd_site/egd_site/templates/includes/hero.html,hero:intro,Gutes tun braucht Herz und Kopf: Finde heraus wie du mit Spenden an die weltweit effektivsten Hilfsorganisationen die Welt nicht nur ein bisschen besser machen kannst.
 apps/egd_site/egd_site/templates/includes/hero.html,hero:place_date_extra_date,30. November 2020
@@ -64,7 +64,7 @@ apps/egd_site/egd_site/__init__.py,hero:title,International Effective Giving Day
 apps/egd_site/egd_site/templates/includes/header.html,link:agenda,Agenda
 apps/egd_site/egd_site/templates/includes/header.html,link:contact,Kontakt
 apps/egd_site/egd_site/templates/includes/footer.html,link:cookies,Cookies
-apps/egd_site/egd_site/templates/includes/header.html,link:get_involved,Get involved
+apps/egd_site/egd_site/templates/includes/header.html,link:get_involved,Mach mit
 apps/egd_site/egd_site/templates/includes/header.html,link:home,Startseite
 apps/egd_site/egd_site/templates/includes/footer.html,link:legal,AGB
 apps/egd_site/egd_site/templates/includes/header.html,link:press,Presse
