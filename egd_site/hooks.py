@@ -12,7 +12,7 @@ app_email = "info@ayudaefectiva.org"
 app_license = "MIT"
 
 
-ASSETS_VERSION = "1.0.1.0"
+ASSETS_VERSION = "1.0.1.1"
 
 # Site domains & environment
 site_app_domains = {
