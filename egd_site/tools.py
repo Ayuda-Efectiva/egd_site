@@ -168,7 +168,7 @@ def registration(firstname, lastname, email, country_code, occupation, organizat
 		"occupation": occupation,
 		"organization": organization,
 		"title": title,
-		"donations": int(donation) if donation else 0,
+		"donations": int(float(donation)) if donation else 0,
 		"familiarity": familiarity,
 		"language": frappe.local.lang,
 	})
