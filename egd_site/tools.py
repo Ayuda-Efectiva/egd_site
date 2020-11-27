@@ -80,7 +80,7 @@ def confirm_subscription(email):
 		"primary_label": _("dialog:body:go_to_homepage"),
 	})
 
-	group_name = "EGD Subscriptions"
+	group_name = "EGD Newsletter"
 	if not frappe.db.exists("Email Group", group_name):
 		frappe.get_doc({
 			"doctype": "Email Group",
