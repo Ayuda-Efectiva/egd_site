@@ -47,6 +47,11 @@ def get_data():
 					"label": "Email Queue (stop/play)",
 					"onboard": 0,
 				},
+				{
+					"type": "doctype",
+					"name": "Newsletter",
+					"description": "Create and manage newsletter"
+				},
 			],
 		},
 		{
