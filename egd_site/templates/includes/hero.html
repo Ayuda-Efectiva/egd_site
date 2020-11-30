@@ -19,10 +19,16 @@
 			<h2 class="head-title">{{ _('hero:title') }}</h2>
 			<p class="banner-desc">{{ _('hero:intro') }}</p>
 			<div class="banner-btn">
-				<a class="btn btn-common" href="https://youtu.be/ih70QEf8Scs" target="_blank">
-					{% if lang=='es' %}¡Ver en directo!{% else %}Watch live now!{% endif %}
-				</a>
+				<!-- PRE EVENT -->
 				<!-- <a href="{{ url_lang }}/register" class="btn btn-common">{{ _('hero:register_button') }}</a> -->
+				<!-- EVENT LIVE -->
+				<!-- <a class="btn btn-common" href="https://youtu.be/ih70QEf8Scs" target="_blank">
+					{% if lang=='es' %}¡Ver en directo!{% else %}Watch live now!{% endif %}
+				</a> -->
+				<!-- EVENT FINISHED -->
+				<a class="btn btn-common mb-5" href="javascript:frappe.ui.scroll('.form-subscribe', true)">
+					{% if lang=='es' %}Suscríbete a nuestra newsletter{% elif lang=='de' %}Melde dich für unseren Newsletter an{% else %}Join our newsletter{% endif %}
+				</a>
 			</div>
 		</div>
 		</div>
