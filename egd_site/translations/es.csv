@@ -107,6 +107,7 @@ apps/egd_site/egd_site/templates/includes/register.html,register:form:select_cou
 apps/egd_site/egd_site/templates/includes/register.html,register:form:select_occupation,Selecciona tu ocupación
 apps/egd_site/egd_site/templates/includes/register.html,register:form:submit,Registrarse
 apps/egd_site/egd_site/templates/includes/register.html,register:form:submitted_successfully_message,Pronto recibirás un email con un enlace para que confirmes tu registro. ¡Muchas gracias!
+apps/egd_site/egd_site/templates/includes/register.html,register:form:submitted_successfully_message_event_day,¡Muchas gracias por registrarte! La dirección para acceder al evento es <a href="https://youtu.be/ih70QEf8Scs">https://youtu.be/ih70QEf8Scs</a>. Te hemos enviado esta misma información por email. ¡Esperamos que te guste el evento!
 apps/egd_site/egd_site/templates/includes/register.html,register:intro,"¿Quieres asistir al Día Internacional de la Ayuda Efectiva el 30 de noviembre? El evento es gratuito, pero necesitas registrarte completando el siguiente formulario. Recibirás un email para confirmar tu correo electrónico y, unos días antes del evento, el enlace para poder conectarte."
 apps/egd_site/egd_site/templates/includes/register.html,register:title,Registro
 apps/egd_site/egd_site/tools.py,"registration:dialog:body:email_""{0}""_confirmed_ok","Has quedado correctamente registrado con el email ""{0}"". ¡Muchas gracias!"

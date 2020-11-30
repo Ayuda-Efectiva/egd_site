@@ -107,6 +107,7 @@ apps/egd_site/egd_site/templates/includes/register.html,register:form:select_cou
 apps/egd_site/egd_site/templates/includes/register.html,register:form:select_occupation,Select your occupation
 apps/egd_site/egd_site/templates/includes/register.html,register:form:submit,Register
 apps/egd_site/egd_site/templates/includes/register.html,register:form:submitted_successfully_message,<strong>Thank you for registering!</strong> You you will receive a confirmation email within a few minutes. A few days before the event you will also receive the instructions on how to join it online.
+apps/egd_site/egd_site/templates/includes/register.html,register:form:submitted_successfully_message_event_day,Thank you for registering! The URL to access the event is <a href="https://youtu.be/ih70QEf8Scs">https://youtu.be/ih70QEf8Scs</a>. We have also emailed you this information. We hope you will enjoy the event!
 apps/egd_site/egd_site/templates/includes/register.html,register:intro,"If you would like to attend the International Effective Giving Day event on November 30, please register by filling in the following form. You will receive a confirmation email and we will send the link to join the event to that same email address a few days before the event."
 apps/egd_site/egd_site/templates/includes/register.html,register:title,Register
 apps/egd_site/egd_site/tools.py,"registration:dialog:body:email_""{0}""_confirmed_ok","Email ""{0}"" confirmed successfully."
