@@ -174,19 +174,44 @@ def registration(firstname, lastname, email, country_code, occupation, organizat
 	})
 	doc.insert(ignore_permissions=True)
 
-	from frappe.utils.verified_command import get_signed_params
-	url = "{0}?{1}".format(
-		frappe.utils.get_url("/api/method/egd_site.tools.confirm_registration"),
-		get_signed_params({"email": email, "_lang": frappe.local.lang})
-	)
-	messages = (
-		_("registration:email:body:verify_your_email"),
-		url,
-		_("registration:email:body:click_here_to_verify")
-	)
-	content = "<p>{0}</p><p><a href=\"{1}\">{2}</a></p>".format(*messages)
-	frappe.sendmail(email, subject=_("registration:email:subject"),
-		content=content, delayed=False)
+	# <REGISTRO EXCEPTO DÍA DEL EVENTO
+	# from frappe.utils.verified_command import get_signed_params
+	# url = "{0}?{1}".format(
+	# 	frappe.utils.get_url("/api/method/egd_site.tools.confirm_registration"),
+	# 	get_signed_params({"email": email, "_lang": frappe.local.lang})
+	# )
+	# messages = (
+	# 	_("registration:email:body:verify_your_email"),
+	# 	url,
+	# 	_("registration:email:body:click_here_to_verify")
+	# )
+	# content = "<p>{0}</p><p><a href=\"{1}\">{2}</a></p>".format(*messages)
+	# frappe.sendmail(email, subject=_("registration:email:subject"),
+	# 	content=content, delayed=False)
+	# REGISTRO EXCEPTO DÍA DEL EVENTO>
+
+	# <REGISTRO SOLO DÍA DEL EVENTO
+	if frappe.local.lang == "es":
+		subject = "Tu enlace para acceder al evento"
+		content = """
+		<p>Gracias por registrarte para asistir al evento del Día Internacional 
+		de la Ayuda Efectiva <strong>esta tarde a las 18:45</strong>.</p>
+		<p>Este es el enlace para acceder al evento:</p>
+		<p><a href="https://youtu.be/ih70QEf8Scs">https://youtu.be/ih70QEf8Scs</a></p>
+		<p>¡Esperamos que te guste el evento!</p>
+		"""
+	else:
+		subject = "Your link to join the event"
+		content = """
+		<p>Thank you for registering to attend the International Effective 
+		Giving Day event on <strong>today at 6:45 p.m. CET</strong> 
+		(<a href="https://time.is/0645pm_30_Nov_2020_in_CET?Effective_Giving_Day">see in your time zone</a>).</p>
+		<p>This is the link to join the event:</p>
+		<p><a href="https://youtu.be/ih70QEf8Scs">https://youtu.be/ih70QEf8Scs</a></p>
+		<p>We hope you will enjoy the event!</p>
+		"""
+	frappe.sendmail(email, subject=subject, content=content, delayed=False)
+	# REGISTRO SOLO DÍA DEL EVENTO>
 
 	return "success"
 
