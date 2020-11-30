@@ -5,6 +5,16 @@
 			<div class="col-12">
 				<div class="section-title-header text-center">
 					<h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">{{ _('register:title') }}</h1>
+					<p class="text-center my-5">
+						<!-- EVENT LIVE -->
+						<a class="btn btn-common mb-5" href="https://youtu.be/ih70QEf8Scs" target="_blank">
+							{% if lang=='es' %}¡Ver en directo!{% else %}Watch live now!{% endif %}
+						</a>
+						<!-- EVENT FINISHED -->
+						<!-- <a class="btn btn-common mb-5" href="javascript:frappe.ui.scroll('.form-subscribe', true)">
+							{% if lang=='es' %}Suscríbete a nuestra newsletter{% elif lang=='de' %}Melde dich für unseren Newsletter an{% else %}Join our newsletter{% endif %}
+						</a> -->
+					</p>
 					<p class="wow fadeInDown" data-wow-delay="0.2s">{{ _('register:intro') }}</p>
 				</div>
 			</div>
@@ -14,86 +24,91 @@
 				<div class="container-form wow fadeInLeft" data-wow-delay="0.2s">
 					<div class="form-wrapper form-registration">
 						<form class="bs-validation" novalidate>
-							<div class="row">
-								<div class="col-md-4">
-									<div class="form-group">
-										<input type="text" class="form-control" name="firstname" placeholder="{{ _('form:first_name') }} *" required>
-									</div>
-								</div>
-								<div class="col-md-4">
-									<div class="form-group">
-										<input type="text" class="form-control" name="lastname" placeholder="{{ _('form:last_name') }} *" required>
-									</div>
-								</div>
-								<div class="col-md-4">
-									<div class="form-group">
-										<input type="email" class="form-control" name="email" placeholder="{{ _('form:email') }} *" pattern="^.+@.+\..+$" required>
-									</div> 
-								</div>
-								<div class="col-md-6">
-									<div class="form-group">
-										<select class="custom-select select-countries" name="country" required>
-											<option selected disabled value="">{{ _('register:form:select_country') }} *</option>
-										</select>
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="form-group">
-										<select class="custom-select" name="occupation" required>
-											<option selected disabled value="">{{ _('register:form:select_occupation') }} *</option>
-											<option value="student">{{ _('register:form:occupation:student') }}</option>
-											<option value="professional">{{ _('register:form:occupation:professional') }}</option>
-											<option value="other">{{ _('register:form:occupation:other') }}</option>
-										</select>
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="form-group">
-										<input type="text" class="form-control" name="organization" placeholder="{{ _('register:form:organization') }}">
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="form-group">
-										<input type="text" class="form-control" name="title" placeholder="{{ _('register:form:organization_title') }}">
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="form-group">
-										<label for="familiarity">{{ _('register:form:familiarity:question') }}</label>
-										<select class="custom-select" name="familiarity" id="familiarity">
-											<option selected disabled value="">{{ _('form:select_option') }}</option>
-											<option value="0">{{ _('register:form:familiarity:not_familiar') }}</option>
-											<option value="1">{{ _('register:form:familiarity:a_bit_familiar') }}</option>
-											<option value="2">{{ _('register:form:familiarity:quite_familiar') }}</option>
-											<option value="3">{{ _('register:form:familiarity:very_familiar') }}</option>
-										</select>
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="form-group">
-										<label for="effective_charities_donations_in_usd">{{ _('register:form:donation:question') }}</label>
-										<input type="number" class="form-control" name="effective_charities_donations_in_usd" value="0" id="effective_charities_donations_in_usd">
-									</div>
-								</div>
-								<div class="col-12">
-									<div class="form-group legal-read-more-container">
-										<p class="text-muted mb-3">{{ _('register:form:privacy_text') }}
-											<a href="{{ url_lang }}/privacy">{{ _('register:form:privacy_clause_link') }}</a>
-										</p>
-										<div class="custom-control custom-checkbox">
-											<input class="custom-control-input" type="checkbox" name="accepted" id="form-conditions" required>
-											<label class="custom-control-label" for="form-conditions">
-												{{ _('register:form:privacy_accept') }} *
-											</label>
+							<!-- FORM (FIELDSET) DISABLED BECAUSE EVENT IS FINISHED -->
+							<fieldset disabled="disabled">
+								<div class="row">
+									<div class="col-md-4">
+										<div class="form-group">
+											<input type="text" class="form-control" name="firstname" placeholder="{{ _('form:first_name') }} *" required>
 										</div>
 									</div>
-									<div class="form-submit">
-										<button type="submit" class="btn btn-common w-100">{{ _('register:form:submit') }}</button>
+									<div class="col-md-4">
+										<div class="form-group">
+											<input type="text" class="form-control" name="lastname" placeholder="{{ _('form:last_name') }} *" required>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="form-group">
+											<input type="email" class="form-control" name="email" placeholder="{{ _('form:email') }} *" pattern="^.+@.+\..+$" required>
+										</div> 
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<select class="custom-select select-countries" name="country" required>
+												<option selected disabled value="">{{ _('register:form:select_country') }} *</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<select class="custom-select" name="occupation" required>
+												<option selected disabled value="">{{ _('register:form:select_occupation') }} *</option>
+												<option value="student">{{ _('register:form:occupation:student') }}</option>
+												<option value="professional">{{ _('register:form:occupation:professional') }}</option>
+												<option value="other">{{ _('register:form:occupation:other') }}</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<input type="text" class="form-control" name="organization" placeholder="{{ _('register:form:organization') }}">
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<input type="text" class="form-control" name="title" placeholder="{{ _('register:form:organization_title') }}">
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="familiarity">{{ _('register:form:familiarity:question') }}</label>
+											<select class="custom-select" name="familiarity" id="familiarity">
+												<option selected disabled value="">{{ _('form:select_option') }}</option>
+												<option value="0">{{ _('register:form:familiarity:not_familiar') }}</option>
+												<option value="1">{{ _('register:form:familiarity:a_bit_familiar') }}</option>
+												<option value="2">{{ _('register:form:familiarity:quite_familiar') }}</option>
+												<option value="3">{{ _('register:form:familiarity:very_familiar') }}</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="effective_charities_donations_in_usd">{{ _('register:form:donation:question') }}</label>
+											<input type="number" class="form-control" name="effective_charities_donations_in_usd" value="0" id="effective_charities_donations_in_usd">
+										</div>
+									</div>
+									<div class="col-12">
+										<div class="form-group legal-read-more-container">
+											<p class="text-muted mb-3">{{ _('register:form:privacy_text') }}
+												<a href="{{ url_lang }}/privacy">{{ _('register:form:privacy_clause_link') }}</a>
+											</p>
+											<div class="custom-control custom-checkbox">
+												<input class="custom-control-input" type="checkbox" name="accepted" id="form-conditions" required>
+												<label class="custom-control-label" for="form-conditions">
+													{{ _('register:form:privacy_accept') }} *
+												</label>
+											</div>
+										</div>
+										<div class="form-submit">
+											<button type="submit" class="btn btn-common w-100">{{ _('register:form:submit') }}</button>
+										</div>
 									</div>
 								</div>
-							</div>
+							</fieldset>
 						</form>
+						<!-- FORM SUBMITTED PRE EVENT -->
 						<!-- <div class="alert alert-success hide">{{ _('register:form:submitted_successfully_message') }}</div> -->
+						<!-- FORM SUBMITTED SAME EVENT DAY -->
 						<div class="alert alert-success hide">{{ _('register:form:submitted_successfully_message_event_day') }}</div>
 					</div>
 				</div>
