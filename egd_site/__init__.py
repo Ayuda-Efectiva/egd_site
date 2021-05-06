@@ -136,6 +136,7 @@ def egd_add_metatags(context):
 			context.metatags["twitter:card"] = "summary"
 
 		if not "title" in context.metatags:
+			context.metatags["title"] = ""
 			if "meta_title" in context:
 				context.metatags["title"] = context["meta_title"]
 			elif context.title:
