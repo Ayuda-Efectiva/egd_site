@@ -69,6 +69,6 @@ def app_site_compile_assets():
 sudo supervisorctl restart frappe-bench-web:frappe-bench-frappe-web && \
 bench --site {1} clear-cache && \
 bench --site {1} clear-website-cache".format(site_app, frappe.local.site)
-	Popen(cmd, shell=True, cwd=path_bench)
+	Popen(cmd, shell=True, cwd=path_bench, executable="/bin/bash")
 	return { "msg": "{0} app for {1} site {2} assets compiling initialized ok: {3}".format(
 		site_app, site_env(), frappe.local.site, cmd) }
