@@ -53,6 +53,10 @@ def egd_guess_language(lang_list=None) -> str:
 
 from frappe.translate import guess_language as frappe_guess_language
 frappe.translate.guess_language = egd_guess_language
+from frappe import auth
+auth.guess_language = egd_guess_language
+from frappe.website import render
+render.guess_language = egd_guess_language
 
 
 def egd_get_user_lang(user=None) -> str:
