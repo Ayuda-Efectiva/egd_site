@@ -59,6 +59,18 @@ from frappe.website import render
 render.guess_language = egd_guess_language
 
 
+from frappe.website.render import render as frappe_website_render
+def egd_render(path=None, http_status_code=None):
+	if is_app_for_actual_site():
+		from frappe.website.render import build_response
+		from frappe.website.render import render_page
+		path = "error"
+		return build_response(path, render_page(path), 500)
+	else:
+		return frappe_website_render(path=path, http_status_code=http_status_code)
+frappe.website.render.render = egd_render
+
+
 def egd_get_user_lang(user=None) -> str:
 	"""If user logged use gessed language on session beginning or resumption"""
 	if is_app_for_actual_site():
