@@ -32,6 +32,31 @@ def site_env() -> str:
 
 # <FRAPPE OVERRIDES
 
+def egd_render_page_by_language(path):
+	if is_app_for_actual_site():
+		from frappe.translate import guess_language
+		from frappe.website.render import render_page
+
+		translated_languages = frappe.get_hooks("translated_languages_for_website")
+		user_lang = guess_language(translated_languages)
+		if translated_languages and translated_languages.index(user_lang) == 0:
+			try:
+				if path and path != "index":
+					lang_path = '{0}/{1}'.format(user_lang, path)
+				else:
+					lang_path = user_lang # index
+
+				return render_page(lang_path)
+			except frappe.DoesNotExistError:
+				return render_page(path)
+		else:
+			return render_page(path)
+	else:
+		return frappe_render_page_by_language(path)
+from frappe.website.render import render_page_by_language as frappe_render_page_by_language
+frappe.website.render.render_page_by_language = egd_render_page_by_language
+
+
 def egd_guess_language(lang_list=None) -> str:
 	"""Set `frappe.local.lang` from url language segment: `/xx/...`"""
 	if is_app_for_actual_site():
@@ -59,20 +84,8 @@ from frappe.website import render
 render.guess_language = egd_guess_language
 
 
-from frappe.website.render import render as frappe_website_render
-def egd_render(path=None, http_status_code=None):
-	if is_app_for_actual_site():
-		from frappe.website.render import build_response
-		from frappe.website.render import render_page
-		path = "error"
-		return build_response(path, render_page(path), 500)
-	else:
-		return frappe_website_render(path=path, http_status_code=http_status_code)
-frappe.website.render.render = egd_render
-
-
 def egd_get_user_lang(user=None) -> str:
-	"""If user logged use gessed language on session beginning or resumption"""
+	"""If user logged use guessed language on session beginning or resumption"""
 	if is_app_for_actual_site():
 		return frappe.local.lang
 	else:
