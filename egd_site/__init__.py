@@ -41,7 +41,9 @@ def egd_render_page_by_language(path):
 		user_lang = guess_language(translated_languages)
 		if translated_languages and translated_languages.index(user_lang) == 0:
 			try:
-				if path and path != "index":
+				if path and path in ("login", "desk", "app"):
+					lang_path = path
+				elif path and path != "index":
 					lang_path = '{0}/{1}'.format(user_lang, path)
 				else:
 					lang_path = user_lang # index
