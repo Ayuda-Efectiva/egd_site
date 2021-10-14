@@ -126,7 +126,11 @@ def egd_resolve_redirect(path):
 		if site_env() == "preprod":
 			user_agent = frappe.local.request.headers.get("User-Agent")
 			# Allow access to site checker Pulno/0.7 (http://www.pulno.com/bot.html)
-			if not user_agent or not "pulno.com/bot.html" in user_agent:
+			# Allow access to Letsencrypt check
+			def is_allowed(user_agent):
+				return ("pulno.com/bot.html" in user_agent
+					or "letsencrypt.org" in user_agent)
+			if not user_agent or not is_allowed(user_agent):
 				restricted_to = ["/access"]
 
 		if (restricted_to and requested not in restricted_to
