@@ -123,10 +123,10 @@ def egd_resolve_redirect(path):
 		restricted_to = []
 
 		# Show access password for any host not related to production or local (staging., prod., ...)
-		if site_env() == "preprod":
+		# Allow access to site checker Pulno/0.7 (http://www.pulno.com/bot.html)
+		# Allow access to Letsencrypt check
+		if site_env() == "preprod" and not path.startswith(".well-known/"):
 			user_agent = frappe.local.request.headers.get("User-Agent")
-			# Allow access to site checker Pulno/0.7 (http://www.pulno.com/bot.html)
-			# Allow access to Letsencrypt check
 			def is_allowed(user_agent):
 				return ("pulno.com/bot.html" in user_agent
 					or "letsencrypt.org" in user_agent)
