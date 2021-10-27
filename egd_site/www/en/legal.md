@@ -10,9 +10,9 @@ Effectivegivingday.org (hereafter, the “WEBSITE”) is a domain managed by FUN
 
 NIF: G88444278
 
-ADDRESS: Calle Rozabella, 6 (Centro Europa Empresarial), Edificio París, planta 0, oficina 13, 28290 Las Rozas, Madrid
+ADDRESS: Calle Vaguada del Arcipreste, 2 bis, 28220 Majadahonda, Madrid
 
-POST CODE: 28290
+POST CODE: 28220
 
 LOCATION: Madrid
 

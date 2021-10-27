@@ -41,7 +41,9 @@ def egd_render_page_by_language(path):
 		user_lang = guess_language(translated_languages)
 		if translated_languages and translated_languages.index(user_lang) == 0:
 			try:
-				if path and path != "index":
+				if path and path in ("login", "desk", "app", "access"):
+					lang_path = path
+				elif path and path != "index":
 					lang_path = '{0}/{1}'.format(user_lang, path)
 				else:
 					lang_path = user_lang # index
@@ -121,10 +123,14 @@ def egd_resolve_redirect(path):
 		restricted_to = []
 
 		# Show access password for any host not related to production or local (staging., prod., ...)
-		if site_env() == "preprod":
+		# Allow access to site checker Pulno/0.7 (http://www.pulno.com/bot.html)
+		# Allow access to Letsencrypt check
+		if site_env() == "preprod" and not path.startswith(".well-known/"):
 			user_agent = frappe.local.request.headers.get("User-Agent")
-			# Allow access to site checker Pulno/0.7 (http://www.pulno.com/bot.html)
-			if not user_agent or not "pulno.com/bot.html" in user_agent:
+			def is_allowed(user_agent):
+				return ("pulno.com/bot.html" in user_agent
+					or "letsencrypt.org" in user_agent)
+			if not user_agent or not is_allowed(user_agent):
 				restricted_to = ["/access"]
 
 		if (restricted_to and requested not in restricted_to

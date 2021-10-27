@@ -10,9 +10,9 @@ Effectivegivingday.org (en adelante, el SITIO WEB) es un dominio gestionado por 
 
 NIF: G88444278
 
-DOMICILIO SOCIAL: Calle Rozabella, 6 (Centro Europa Empresarial), Edificio París, planta 0, oficina 13, 28290 Las Rozas, Madrid
+DOMICILIO SOCIAL: Calle Vaguada del Arcipreste, 2 bis, 28220 Majadahonda, Madrid
 
-CÓDIGO POSTAL: 28290
+CÓDIGO POSTAL: 28220
 
 LOCALIDAD: Madrid
 

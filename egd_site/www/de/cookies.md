@@ -51,7 +51,7 @@ Es gibt viele Arten von Cookies. Im Folgenden bieten wir dem Benutzer einige Kla
 
 ### Wer ist für diesen Dienst verantwortlich?
 
-Für diesen Dienst ist FUNDACIÓN AYUDA EFECTIVA zuständig, mit NIF G88444278, wohnhaft in der Calle Rozabella, 6 (Centro Europa Empresarial), Edificio París, planta 0, oficina 13, 28290 Las Rozas, Madrid, und eingetragen im Stiftungsregister unter der Nummer 2263.
+Für diesen Dienst ist FUNDACIÓN AYUDA EFECTIVA zuständig, mit NIF G88444278, wohnhaft in der Calle Vaguada del Arcipreste, 2 bis, 28220 Majadahonda, Madrid, und eingetragen im Stiftungsregister unter der Nummer 2263.
 
 ### Welche Technologien verwenden wir?
 

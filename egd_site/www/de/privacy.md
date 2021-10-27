@@ -6,7 +6,7 @@ body_class: legal-content
 
 ## 1. Identität des für die Verarbeitung Verantwortlichen
 
-Die vom BENUTZER durch eines der Formulare auf der WEBSITE zur Verfügung gestellten Informationen werden in eine oder mehrere Dateien unter der Verantwortung von FUNDACIÓN AYUDA EFECTIVA (nachstehend DIE STIFTUNG) mit Sitz in der Calle Rozabella, 6 (Centro Europa Empresarial), Edificio París, planta 0, oficina 13, 28290 Las Rozas, Madrid, aufgenommen.
+Die vom BENUTZER durch eines der Formulare auf der WEBSITE zur Verfügung gestellten Informationen werden in eine oder mehrere Dateien unter der Verantwortung von FUNDACIÓN AYUDA EFECTIVA (nachstehend DIE STIFTUNG) mit Sitz in der Calle Vaguada del Arcipreste, 2 bis, 28220 Majadahonda, Madrid, aufgenommen.
 
 ## 2. Ziele der Verarbeitung
 
@@ -48,7 +48,7 @@ Ebenso erklärt der BENUTZER durch Anklicken der Schaltflächen "Senden", "Akzep
 
 ## Nr. 5 Ausübung von Rechten
 
-Der BENUTZER kann seine Einwilligung widerrufen und seine Rechte auf Zugang, Berichtigung und Löschung/Löschung seiner persönlichen Daten ausüben, sowie die Verarbeitung einschränken oder sich direkt der Verarbeitung widersetzen oder das Recht auf Übertragbarkeit dieser Daten ausüben, indem er eine E-Mail an die Adresse info @ ayudaefectiva sendet. org sendet oder über die Postanschrift Calle Rozabella, 6 (Centro Europa Empresarial), Edificio París, planta 0, oficina 13, 28290 Las Rozas, Madrid Kontakt aufnimmt und Sie sich als BENUTZER der WEBSITE ausweißt, indem eine Fotokopie des Personalausweises oder eines gleichwertigen Dokuments vorgelegt und die Anfrage spezifiziert wird.
+Der BENUTZER kann seine Einwilligung widerrufen und seine Rechte auf Zugang, Berichtigung und Löschung/Löschung seiner persönlichen Daten ausüben, sowie die Verarbeitung einschränken oder sich direkt der Verarbeitung widersetzen oder das Recht auf Übertragbarkeit dieser Daten ausüben, indem er eine E-Mail an die Adresse info @ ayudaefectiva sendet. org sendet oder über die Postanschrift Calle Vaguada del Arcipreste, 2 bis, 28220 Majadahonda, Madrid Kontakt aufnimmt und Sie sich als BENUTZER der WEBSITE ausweißt, indem eine Fotokopie des Personalausweises oder eines gleichwertigen Dokuments vorgelegt und die Anfrage spezifiziert wird.
 
 Wenn Sie der Ansicht sind, dass Ihr Recht auf den Schutz personenbezogener Daten verletzt wurde, können Sie ebenfalls eine Beschwerde bei der spanischen Datenschutzbehörde (www.aepd.es) einreichen.
 

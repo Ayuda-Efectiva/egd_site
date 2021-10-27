@@ -1,155 +1,155 @@
-apps/egd_site/egd_site/templates/includes/agenda.html,agenda:1:hosts,"<strong>Hosts</strong>: Sebastian Schwiecker, <a href='https://effektiv-spenden.org'>effektiv-spenden.org</a> & Siobhan Brenton, <a href='https://rcforward.org/'>RC Forward</a>"
-apps/egd_site/egd_site/templates/includes/agenda.html,agenda:1:intro,<strong>Sebastian Schwiecker</strong> & <strong>Siobhan Brenton</strong>
-apps/egd_site/egd_site/templates/includes/agenda.html,agenda:1:title,An introduction to effective giving
-apps/egd_site/egd_site/templates/includes/agenda.html,agenda:2:description,"Climate change is a perplexing and huge problem that leaves many of us hopeless about our own ability to make a meaningful difference. In this talk, Johannes, Climate Lead at Founders Pledge, will explain the principles enabling high-impact climate giving for individuals, introduce new climate recommendations, and elaborate how the US elections and COVID-19 play into optimal giving choices around climate."
-apps/egd_site/egd_site/templates/includes/agenda.html,agenda:2:hosts,<strong>Host</strong>: Sebastian Schienle
-apps/egd_site/egd_site/templates/includes/agenda.html,agenda:2:intro,"<strong>Johannes Ackva</strong>, Climate Lead, Founders Pledge"
-apps/egd_site/egd_site/templates/includes/agenda.html,agenda:2:speakers,"<strong>Speaker</strong>: Johannes Ackva, <a href='https://founderspledge.com/'>Founders Pledge</a>"
-apps/egd_site/egd_site/templates/includes/agenda.html,agenda:2:title,The ABC of High Impact Climate Philanthropy and where to give now
-apps/egd_site/egd_site/templates/includes/agenda.html,agenda:3:description,"With so many animals suffering around the globe, how can I as a donor make a big impact for animals? In this talk, Leah shares Animal Charity Evaluators' methods for evaluating organizations and presents their brand new 2020 charity recommendations."
-apps/egd_site/egd_site/templates/includes/agenda.html,agenda:3:hosts,<strong>Host</strong>: Katja Jäger
-apps/egd_site/egd_site/templates/includes/agenda.html,agenda:3:intro,"<strong>Leah Edgerton</strong>, Executive Director Animal Charity Evaluators"
-apps/egd_site/egd_site/templates/includes/agenda.html,agenda:3:speakers,"<strong>Speaker</strong>: Leah Edgerton, <a href='https://animalcharityevaluators.org/'>Animal Charity Evaluators</a>"
-apps/egd_site/egd_site/templates/includes/agenda.html,agenda:3:title,Animal welfare: Our recommendations for the giving season
-apps/egd_site/egd_site/templates/includes/agenda.html,agenda:4:description,Which charities save or improve lives the most per dollar? Dr. Neil Buddy Shah will explain how GiveWell tackles this extremely important question and how their research can help donors who want to maximize their impact today.
-apps/egd_site/egd_site/templates/includes/agenda.html,agenda:4:hosts,"<strong>Host</strong>: Pablo Melchor, <a href='https://ayudaefectiva.org'>Ayuda Efectiva</a>"
-apps/egd_site/egd_site/templates/includes/agenda.html,agenda:4:intro,"<strong>Neil Buddy Shah</strong>, Managing Director, GiveWell"
-apps/egd_site/egd_site/templates/includes/agenda.html,agenda:4:speakers,"<strong>Speaker</strong>: Neil Buddy Shah, <a href='https://givewell.org'>GiveWell</a>"
-apps/egd_site/egd_site/templates/includes/agenda.html,agenda:4:title,Global health and development: The most effective charities for 2020 and the research behind the selection.
-apps/egd_site/egd_site/templates/includes/agenda.html,agenda:5:description-1,"Professor Michael Kremer is one of the world’s most influential development economists. Prof. Kremer pioneered the use of randomised control trials to measure the impact of interventions and identify practical solutions which can benefit low-income people in developing countries. He has produced some of the most influential research in the field, notably a 20-year study showing the lasting positive effects of school-based deworming programmes, the development of new approaches to water treatment, and a series of studies showing how digitally delivered agricultural advice can cost-effectively improve outcomes for smallholder farmers."
-apps/egd_site/egd_site/templates/includes/agenda.html,agenda:5:description-2,"Prof. Kremer joins us to discuss his career to date, including his 2019 Nobel Prize in Economics. He will also participate in a Q&A."
-apps/egd_site/egd_site/templates/includes/agenda.html,agenda:5:hosts,"<strong>Host</strong>: Jack Lewars, <a href='https://www.1fortheworld.org/'>One for the World</a>"
-apps/egd_site/egd_site/templates/includes/agenda.html,agenda:5:intro,"<strong>Michael Kremer</strong>, University Professor in Economics and the College and the Harris School of Public Policy, Director of the Development Innovation Lab, University of Chicago"
-apps/egd_site/egd_site/templates/includes/agenda.html,agenda:5:speakers,"<strong>Speaker</strong>: Michael Kremer, University Professor in Economics and the College and the Harris School of Public Policy, Director of the Development Innovation Lab, University of Chicago"
-apps/egd_site/egd_site/templates/includes/agenda.html,agenda:5:title,Keynote speaker: Nobel Prize winner Professor Michael Kremer
-apps/egd_site/egd_site/templates/includes/agenda.html,agenda:6:description,"Charlie Bresler, Ph.D., Executive Director of Peter Singer’s The Life You Can Save, will discuss the specific opportunities available to everyone to save lives from the comfort of their own living room. Too good to be true...listen!"
-apps/egd_site/egd_site/templates/includes/agenda.html,agenda:6:intro,"<strong>Charlie Bresler</strong>, Executive Director, The Life You Can Save"
-apps/egd_site/egd_site/templates/includes/agenda.html,agenda:6:speakers,"<strong>Speaker</strong>: Charlie Bresler, <a href='https://www.thelifeyoucansave.org/'>The Life You Can Save</a>"
-apps/egd_site/egd_site/templates/includes/agenda.html,agenda:6:title,How you can make a difference today
-apps/egd_site/egd_site/templates/includes/agenda.html,agenda:see_into_your_local_time,see in your local time
-apps/egd_site/egd_site/templates/includes/contact.html,contact:form:privacy:accept,I have read and accept the treatment of my personal data
-apps/egd_site/egd_site/templates/includes/contact.html,contact:form:privacy:read_more,Read more...
-apps/egd_site/egd_site/templates/includes/contact.html,contact:form:select_your_country,Select your country
-apps/egd_site/egd_site/templates/includes/contact.html,contact:form:submit,Send message
-apps/egd_site/egd_site/templates/includes/contact.html,contact:form:submitted_successfully_message,Message sent successfully. We will contact you as soon as possible.
-apps/egd_site/egd_site/www/es/contact-us.md,contact:title,Contact us
-apps/egd_site/egd_site/templates/includes/cookies.message.html,cookies:box:accept,Accept
-apps/egd_site/egd_site/templates/includes/cookies.message.html,cookies:box:link:read_more,Read cookies page for more info
-apps/egd_site/egd_site/templates/includes/cookies.message.html,cookies:box:message,This site uses its own and third-party cookies to offer you a better service.
-apps/egd_site/egd_site/templates/includes/cookies.message.html,cookies:box:title,Cookies
-apps/egd_site/egd_site/tools.py,dialog:body:go_to_homepage,Go to homepage
-apps/egd_site/egd_site/templates/includes/contact.html,form:email,Email
-apps/egd_site/egd_site/templates/includes/register.html,form:first_name,First name
-apps/egd_site/egd_site/templates/includes/contact.html,form:full_name,Full name
-apps/egd_site/egd_site/templates/includes/footer.html,form:i_have_read_and_agree,I have read and accept the privacy statement
-apps/egd_site/egd_site/templates/includes/register.html,form:last_name,Last name
-apps/egd_site/egd_site/templates/includes/contact.html,form:message,Message
-apps/egd_site/egd_site/templates/includes/register.html,form:select_option,Select an option
-apps/egd_site/egd_site/templates/includes/contact.html,form:subject,Subject
-apps/egd_site/egd_site/public/js/web.js,form:submit:error,Error submitting...
-apps/egd_site/egd_site/public/js/web.js,form:submit:sending,Sending...
-apps/egd_site/egd_site/templates/includes/get-involved.html,get_involved:au:title,Australia
-apps/egd_site/egd_site/templates/includes/get-involved.html,get_involved:de_at_ch:title,"Germany, Austria & Switzerland"
-apps/egd_site/egd_site/templates/includes/get-involved.html,get_involved:es:title,Spain
-apps/egd_site/egd_site/templates/includes/get-involved.html,get_involved:intro,
-apps/egd_site/egd_site/templates/includes/get-involved.html,get_involved:title,Get involved
-apps/egd_site/egd_site/templates/includes/get-involved.html,get_involved:us_ca_gb:title,"USA, UK, Australia & Canada"
-apps/egd_site/egd_site/templates/includes/section-about.html,global:image_credit,Credit:
-apps/egd_site/egd_site/templates/includes/hero.html,hero:intro,Give with your head as well as your heart: Discover how the ideas of effective giving can help you maximize your impact when donating to the causes you care about
-apps/egd_site/egd_site/templates/includes/hero.html,hero:place_date_extra_date,"November 30, 2020"
-apps/egd_site/egd_site/templates/includes/hero.html,hero:place_date_extra_place,Free online event
-apps/egd_site/egd_site/templates/includes/hero.html,hero:place_date_extra_time,6:45 p.m. CET
-apps/egd_site/egd_site/templates/includes/hero.html,hero:register_button,REGISTER NOW
-apps/egd_site/egd_site/__init__.py,hero:title,International Effective Giving Day
-apps/egd_site/egd_site/templates/includes/header.html,link:agenda,Agenda
-apps/egd_site/egd_site/templates/includes/header.html,link:contact,Contact
-apps/egd_site/egd_site/templates/includes/footer.html,link:cookies,Cookies
-apps/egd_site/egd_site/templates/includes/header.html,link:get_involved,Get involved
-apps/egd_site/egd_site/templates/includes/header.html,link:home,Home
-apps/egd_site/egd_site/templates/includes/footer.html,link:legal,Legal
-apps/egd_site/egd_site/templates/includes/header.html,link:press,Press
-apps/egd_site/egd_site/templates/includes/footer.html,link:privacy,privacy
-apps/egd_site/egd_site/templates/includes/section-about.html,link:read_more,Read more
-apps/egd_site/egd_site/templates/includes/footer.html,link:register,Register
-apps/egd_site/egd_site/templates/includes/header.html,link:speakers,Speakers
-apps/egd_site/egd_site/templates/includes/footer.html,link:view,view
-apps/egd_site/egd_site/tools.py,"newsletter:dialog:body:email_""{0}""_subscribed_ok","Your email ""{0}"" was successfully subscribed"
-apps/egd_site/egd_site/tools.py,"newsletter:dialog:body:email_""{0}""_subscribed_previously","Your email ""{0}"" were subscribed previously"
-apps/egd_site/egd_site/tools.py,"newsletter:dialog:body:error_adding_email_""{0}"".","There was an error adding your email ""{0}""."
-apps/egd_site/egd_site/tools.py,newsletter:dialog:title:newsletter_subscription,Newsletter subscription
-apps/egd_site/egd_site/tools.py,newsletter:email:body:click_here_to_verify,Click here to verify your email
-apps/egd_site/egd_site/tools.py,newsletter:email:body:verify_your_email,Thank you very much for your interest. We need your email confirmation to finish your subscription.
-apps/egd_site/egd_site/tools.py,newsletter:email:subject,Email confirmation (action needed)
-apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:email,Your email
-apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:privacy_accept,I have read and accept the processing of my personal data for the described purpose
-apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:privacy_text,"Your data will be processed by FUNDACIÓN AYUDA EFECTIVA to send you the newsletter and event notifications. You can exercise your rights through the following email info @ ayudaefectiva.org, identifying yourself as a subscriber to the effectivegivingday.org newsletter and specifying your request. For more information about the treatment of your data and your rights, please read the following link:"
-apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:submit,Subscribe
-apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:submitted_successfully_message,Soon you will receive a an email for confirmation. Thank you very much for your registration.
-apps/egd_site/egd_site/templates/includes/footer.html,newsletter:link:privacy_clause,privacy clause
-apps/egd_site/egd_site/templates/includes/footer.html,newsletter:stay_up_to_date,Stay up to date
-apps/egd_site/egd_site/www/es/press.md,press:intro,"We are happy to respond to interview requests, provide quotes or answer questions. Please fill in this form and we will put you in touch with the best press contact for your country or area of interest."
-apps/egd_site/egd_site/www/es/press.md,press:title,Press
-apps/egd_site/egd_site/templates/includes/register.html,register:form:donation:question,How much (if anything) do you currently give per year to charities you know are highly effective? (USD)
-apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:a_bit_familiar,Somewhat familiar
-apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:not_familiar,Not familiar
-apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:question,How familiar are you with the effective giving movement?
-apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:quite_familiar,Quite familiar
-apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:very_familiar,Very familiar
-apps/egd_site/egd_site/templates/includes/register.html,register:form:occupation:other,Other
-apps/egd_site/egd_site/templates/includes/register.html,register:form:occupation:professional,Professional
-apps/egd_site/egd_site/templates/includes/register.html,register:form:occupation:student,Student
-apps/egd_site/egd_site/templates/includes/register.html,register:form:organization,Organization
-apps/egd_site/egd_site/templates/includes/register.html,register:form:organization_title,Title
-apps/egd_site/egd_site/templates/includes/register.html,register:form:privacy_accept,I have read and accept the processing of my personal data for the purposes described
-apps/egd_site/egd_site/templates/includes/register.html,register:form:privacy_clause_link,privacy clause
-apps/egd_site/egd_site/templates/includes/register.html,register:form:privacy_text,"Your data will be treated by FUNDACIÓN AYUDA EFECTIVA to manage your registration, as well as to keep you informed about this and future related events. You can exercise your rights by using the following email address info @ ayudaefectiva.org, identifying yourself as a registered user of the effectivegivingday.org website, and specifying your request. For more information about the treatment of your data, please please read the following link:"
-apps/egd_site/egd_site/templates/includes/register.html,register:form:select_country,Select you country
-apps/egd_site/egd_site/templates/includes/register.html,register:form:select_occupation,Select your occupation
-apps/egd_site/egd_site/templates/includes/register.html,register:form:submit,Register
-apps/egd_site/egd_site/templates/includes/register.html,register:form:submitted_successfully_message,<strong>Thank you for registering!</strong> You you will receive a confirmation email within a few minutes. A few days before the event you will also receive the instructions on how to join it online.
-apps/egd_site/egd_site/templates/includes/register.html,register:form:submitted_successfully_message_event_day,Thank you for registering! The URL to access the event is <a href="https://youtu.be/ih70QEf8Scs">https://youtu.be/ih70QEf8Scs</a>. We have also emailed you this information. We hope you will enjoy the event!
-apps/egd_site/egd_site/templates/includes/register.html,register:intro,"If you would like to attend the International Effective Giving Day event on November 30, please register by filling in the following form. You will receive a confirmation email and we will send the link to join the event to that same email address a few days before the event."
-apps/egd_site/egd_site/templates/includes/register.html,register:title,Register
-apps/egd_site/egd_site/tools.py,"registration:dialog:body:email_""{0}""_confirmed_ok","Email ""{0}"" confirmed successfully."
-apps/egd_site/egd_site/tools.py,"registration:dialog:body:email_""{0}""_confirmed_previously","Email ""{0}"" confirmed previously."
-apps/egd_site/egd_site/tools.py,registration:dialog:body:error_confirming_your_email.,Error with your email confirmation.
-apps/egd_site/egd_site/tools.py,registration:dialog:title:registration_subscription,Registration
-apps/egd_site/egd_site/tools.py,registration:email:body:click_here_to_verify,Click here to verify your email
-apps/egd_site/egd_site/tools.py,registration:email:body:verify_your_email,Thank you for your interest in the International Effective Giving Day! <strong>Please confirm your email address to complete your registration</strong>:
-apps/egd_site/egd_site/tools.py,registration:email:subject,Please confirm your email address to complete your registration
-apps/egd_site/egd_site/templates/includes/section-about.html,section:about:intro,International Effective Giving Day is an online event giving you the chance to hear from some of the world's most eminent thinkers in effective philanthropy.
-apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:1,Keynote address: Nobel Laureate Professor <strong>Michael Kremer</strong>
-apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:2,Supported by the world’s leading organizations in effective philanthropy and charity evaluation
-apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:3,"Also featuring: Johannes Ackva (Climate Lead <strong>Founders Pledge</strong>), Leah Edgerton (Executive Director <strong>Animal Charity Evaluators</strong>), Neil Buddy Shah (Managing Director, <strong>GiveWell</strong>)"
-apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:4,section:about:list:4
-apps/egd_site/egd_site/templates/includes/section-about.html,section:about:title,About the event
-apps/egd_site/egd_site/templates/includes/section-agenda.html,section:agenda:intro,"Join us on November 30, 2020 for two hours packed with the latest information on the most effective ways to tackle some of the world’s most pressing problems."
-apps/egd_site/egd_site/templates/includes/section-agenda.html,section:agenda:title,Agenda
-apps/egd_site/egd_site/templates/includes/section-partners.html,section:partners:organized_by,Organized by
-apps/egd_site/egd_site/templates/includes/section-partners.html,section:partners:supported_by,With the support of
-apps/egd_site/egd_site/templates/includes/section-speakers.html,section:speakers:intro,section:speakers:intro
-apps/egd_site/egd_site/templates/includes/section-speakers.html,section:speakers:see_all_speakers,See all speakers
-apps/egd_site/egd_site/templates/includes/section-speakers.html,section:speakers:title,Speakers
-apps/egd_site/egd_site/templates/includes/section-why.html,section:why:1:title,Can non-profits make a dent on the world’s biggest problems?
-apps/egd_site/egd_site/templates/includes/section-why.html,section:why:2:title,Are all charities just as good? How can we compare them?
-apps/egd_site/egd_site/templates/includes/section-why.html,section:why:3:title,I want to give - but how can I decide which charities to support?
-apps/egd_site/egd_site/templates/includes/section-why.html,section:why:4:title,How can I be sure that my money will have real impact?
-apps/egd_site/egd_site/templates/includes/section-why.html,section:why:intro,Have you ever wondered how much you can actually improve the world through charitable giving? Our speakers will shed light on the key questions you have to answer if you care about having an impact:
-apps/egd_site/egd_site/templates/includes/section-why.html,section:why:title,Why you should attend
-apps/egd_site/egd_site/templates/includes/speakers.html,speakers:1:description,"Professor Michael Kremer is one of the world’s most influential development economists. Prof. Kremer pioneered the use of randomised control trials to measure the impact of interventions and identify practical solutions which can benefit low-income people in developing countries. He has produced some of the most influential research in the field, notably a 20-year study showing the lasting positive effects of school-based deworming programmes, the development of new approaches to water treatment, and a series of studies showing how digitally delivered agricultural advice can cost-effectively improve outcomes for smallholder farmers."
-apps/egd_site/egd_site/templates/includes/speakers.html,speakers:1:intro,"University Professor in Economics and the College and the Harris School of Public Policy, Director of the Development Innovation Lab, University of Chicago. Nobel Prize winner."
-apps/egd_site/egd_site/templates/includes/speakers.html,speakers:2:description,<a href='https://www.givewell.org/'>GiveWell</a> is a nonprofit dedicated to finding outstanding giving opportunities and publishing the full details of our analysis to help donors decide where to give.
-apps/egd_site/egd_site/templates/includes/speakers.html,speakers:2:intro,"GiveWell, Managing Director"
-apps/egd_site/egd_site/templates/includes/speakers.html,speakers:3:description,<a href='https://animalcharityevaluators.org/'>Animal Charity Evaluators</a> is a non-profit charity evaluator dedicated to finding and promoting the most effective ways to help animals.
-apps/egd_site/egd_site/templates/includes/speakers.html,speakers:3:intro,"Animal Charity Evaluators, Executive Director"
-apps/egd_site/egd_site/templates/includes/speakers.html,speakers:4:description,<a href='https://founderspledge.com/'>Founders Pledge</a> is a global community of entrepreneurs with the goal of finding and funding solutions to the world’s most pressing problems.
-apps/egd_site/egd_site/templates/includes/speakers.html,speakers:4:intro,"Founders Pledge, Climate Lead"
-apps/egd_site/egd_site/templates/includes/speakers.html,speakers:5:description,<a href='https://www.thelifeyoucansave.org/'>The Life You Can Save</a> makes “smart giving simple” by curating a group of nonprofits that save or improve the most lives per dollar.
-apps/egd_site/egd_site/templates/includes/speakers.html,speakers:5:intro,"The Life You Can Save, Executive Director"
-apps/egd_site/egd_site/templates/includes/speakers.html,speakers:6:intro,"RC Forward, Manager of Operations"
-apps/egd_site/egd_site/templates/includes/speakers.html,speakers:7:description,<a href='https://www.1fortheworld.org/'>One for the World</a> is a movement of people revolutionizing charitable giving to end extreme poverty. Our members pledge 1% of their income to the world's most cost-effective charities.
-apps/egd_site/egd_site/templates/includes/speakers.html,speakers:7:intro,"One for the World, Executive Director"
-apps/egd_site/egd_site/templates/includes/speakers.html,speakers:8:description,<a href='https://ayudaefectiva.org/'>Ayuda Efectiva</a> has the mission of developing effective giving in Spain. Their Global Health Fund selects and supports the projects that improve the lives of people living in extreme poverty in the most cost-effective ways.
-apps/egd_site/egd_site/templates/includes/speakers.html,speakers:8:intro,"Ayuda Efectiva, President"
-apps/egd_site/egd_site/templates/includes/speakers.html,speakers:9:description,<a href='https://www.effektiv-spenden.org/'>effektiv-spenden.org</a> enables German donors to support some of the worlds most effective charities in a tax deductible way. All our recommendations are vetted by independent experts from around the world.
-apps/egd_site/egd_site/templates/includes/speakers.html,speakers:9:intro,"effektiv-spenden.org, Executive Director"
+agenda:1:hosts,"<strong>Hosts</strong>: Sebastian Schwiecker, <a href='https://effektiv-spenden.org'>effektiv-spenden.org</a> & Siobhan Brenton, <a href='https://rcforward.org/'>RC Forward</a>"
+agenda:1:intro,<strong>Sebastian Schwiecker</strong> & <strong>Siobhan Brenton</strong>
+agenda:1:title,An introduction to effective giving
+agenda:2:description,"Climate change is a perplexing and huge problem that leaves many of us hopeless about our own ability to make a meaningful difference. In this talk, Johannes, Climate Lead at Founders Pledge, will explain the principles enabling high-impact climate giving for individuals, introduce new climate recommendations, and elaborate how the US elections and COVID-19 play into optimal giving choices around climate."
+agenda:2:hosts,<strong>Host</strong>: Sebastian Schienle
+agenda:2:intro,"<strong>Johannes Ackva</strong>, Climate Lead, Founders Pledge"
+agenda:2:speakers,"<strong>Speaker</strong>: Johannes Ackva, <a href='https://founderspledge.com/'>Founders Pledge</a>"
+agenda:2:title,The ABC of High Impact Climate Philanthropy and where to give now
+agenda:3:description,"With so many animals suffering around the globe, how can I as a donor make a big impact for animals? In this talk, Leah shares Animal Charity Evaluators' methods for evaluating organizations and presents their brand new 2020 charity recommendations."
+agenda:3:hosts,<strong>Host</strong>: Katja Jäger
+agenda:3:intro,"<strong>Leah Edgerton</strong>, Executive Director Animal Charity Evaluators"
+agenda:3:speakers,"<strong>Speaker</strong>: Leah Edgerton, <a href='https://animalcharityevaluators.org/'>Animal Charity Evaluators</a>"
+agenda:3:title,Animal welfare: Our recommendations for the giving season
+agenda:4:description,Which charities save or improve lives the most per dollar? Dr. Neil Buddy Shah will explain how GiveWell tackles this extremely important question and how their research can help donors who want to maximize their impact today.
+agenda:4:hosts,"<strong>Host</strong>: Pablo Melchor, <a href='https://ayudaefectiva.org'>Ayuda Efectiva</a>"
+agenda:4:intro,"<strong>Neil Buddy Shah</strong>, Managing Director, GiveWell"
+agenda:4:speakers,"<strong>Speaker</strong>: Neil Buddy Shah, <a href='https://givewell.org'>GiveWell</a>"
+agenda:4:title,Global health and development: The most effective charities for 2020 and the research behind the selection.
+agenda:5:description-1,"Professor Michael Kremer is one of the world’s most influential development economists. Prof. Kremer pioneered the use of randomised control trials to measure the impact of interventions and identify practical solutions which can benefit low-income people in developing countries. He has produced some of the most influential research in the field, notably a 20-year study showing the lasting positive effects of school-based deworming programmes, the development of new approaches to water treatment, and a series of studies showing how digitally delivered agricultural advice can cost-effectively improve outcomes for smallholder farmers."
+agenda:5:description-2,"Prof. Kremer joins us to discuss his career to date, including his 2019 Nobel Prize in Economics. He will also participate in a Q&A."
+agenda:5:hosts,"<strong>Host</strong>: Jack Lewars, <a href='https://www.1fortheworld.org/'>One for the World</a>"
+agenda:5:intro,"<strong>Michael Kremer</strong>, University Professor in Economics and the College and the Harris School of Public Policy, Director of the Development Innovation Lab, University of Chicago"
+agenda:5:speakers,"<strong>Speaker</strong>: Michael Kremer, University Professor in Economics and the College and the Harris School of Public Policy, Director of the Development Innovation Lab, University of Chicago"
+agenda:5:title,Keynote speaker: Nobel Prize winner Professor Michael Kremer
+agenda:6:description,"Charlie Bresler, Ph.D., Executive Director of Peter Singer’s The Life You Can Save, will discuss the specific opportunities available to everyone to save lives from the comfort of their own living room. Too good to be true...listen!"
+agenda:6:intro,"<strong>Charlie Bresler</strong>, Executive Director, The Life You Can Save"
+agenda:6:speakers,"<strong>Speaker</strong>: Charlie Bresler, <a href='https://www.thelifeyoucansave.org/'>The Life You Can Save</a>"
+agenda:6:title,How you can make a difference today
+agenda:see_into_your_local_time,see in your local time
+contact:form:privacy:accept,I have read and accept the treatment of my personal data
+contact:form:privacy:read_more,Read more...
+contact:form:select_your_country,Select your country
+contact:form:submit,Send message
+contact:form:submitted_successfully_message,Message sent successfully. We will contact you as soon as possible.
+contact:title,Contact us
+cookies:box:accept,Accept
+cookies:box:link:read_more,Read cookies page for more info
+cookies:box:message,This site uses its own and third-party cookies to offer you a better service.
+cookies:box:title,Cookies
+dialog:body:go_to_homepage,Go to homepage
+form:email,Email
+form:first_name,First name
+form:full_name,Full name
+form:i_have_read_and_agree,I have read and accept the privacy statement
+form:last_name,Last name
+form:message,Message
+form:select_option,Select an option
+form:subject,Subject
+form:submit:error,Error submitting...
+form:submit:sending,Sending...
+get_involved:au:title,Australia
+get_involved:de_at_ch:title,"Germany, Austria & Switzerland"
+get_involved:es:title,Spain
+get_involved:intro,
+get_involved:title,Get involved
+get_involved:us_ca_gb:title,"USA, UK, Australia & Canada"
+global:image_credit,Credit:
+hero:intro,Give with your head as well as your heart: Discover how the ideas of effective giving can help you maximize your impact when donating to the causes you care about
+hero:place_date_extra_date,"November 30, 2020"
+hero:place_date_extra_place,Free online event
+hero:place_date_extra_time,6:45 p.m. CET
+hero:register_button,REGISTER NOW
+hero:title,International Effective Giving Day
+link:agenda,Agenda
+link:contact,Contact
+link:cookies,Cookies
+link:get_involved,Get involved
+link:home,Home
+link:legal,Legal
+link:press,Press
+link:privacy,privacy
+link:read_more,Read more
+link:register,Register
+link:speakers,Speakers
+link:view,view
+"newsletter:dialog:body:email_""{0}""_subscribed_ok","Your email ""{0}"" was successfully subscribed"
+"newsletter:dialog:body:email_""{0}""_subscribed_previously","Your email ""{0}"" were subscribed previously"
+"newsletter:dialog:body:error_adding_email_""{0}"".","There was an error adding your email ""{0}""."
+newsletter:dialog:title:newsletter_subscription,Newsletter subscription
+newsletter:email:body:click_here_to_verify,Click here to verify your email
+newsletter:email:body:verify_your_email,Thank you very much for your interest. We need your email confirmation to finish your subscription.
+newsletter:email:subject,Email confirmation (action needed)
+newsletter:form:email,Your email
+newsletter:form:privacy_accept,I have read and accept the processing of my personal data for the described purpose
+newsletter:form:privacy_text,"Your data will be processed by FUNDACIÓN AYUDA EFECTIVA to send you the newsletter and event notifications. You can exercise your rights through the following email info @ ayudaefectiva.org, identifying yourself as a subscriber to the effectivegivingday.org newsletter and specifying your request. For more information about the treatment of your data and your rights, please read the following link:"
+newsletter:form:submit,Subscribe
+newsletter:form:submitted_successfully_message,Soon you will receive a an email for confirmation. Thank you very much for your registration.
+newsletter:link:privacy_clause,privacy clause
+newsletter:stay_up_to_date,Stay up to date
+press:intro,"We are happy to respond to interview requests, provide quotes or answer questions. Please fill in this form and we will put you in touch with the best press contact for your country or area of interest."
+press:title,Press
+register:form:donation:question,How much (if anything) do you currently give per year to charities you know are highly effective? (USD)
+register:form:familiarity:a_bit_familiar,Somewhat familiar
+register:form:familiarity:not_familiar,Not familiar
+register:form:familiarity:question,How familiar are you with the effective giving movement?
+register:form:familiarity:quite_familiar,Quite familiar
+register:form:familiarity:very_familiar,Very familiar
+register:form:occupation:other,Other
+register:form:occupation:professional,Professional
+register:form:occupation:student,Student
+register:form:organization,Organization
+register:form:organization_title,Title
+register:form:privacy_accept,I have read and accept the processing of my personal data for the purposes described
+register:form:privacy_clause_link,privacy clause
+register:form:privacy_text,"Your data will be treated by FUNDACIÓN AYUDA EFECTIVA to manage your registration, as well as to keep you informed about this and future related events. You can exercise your rights by using the following email address info @ ayudaefectiva.org, identifying yourself as a registered user of the effectivegivingday.org website, and specifying your request. For more information about the treatment of your data, please please read the following link:"
+register:form:select_country,Select you country
+register:form:select_occupation,Select your occupation
+register:form:submit,Register
+register:form:submitted_successfully_message,<strong>Thank you for registering!</strong> You you will receive a confirmation email within a few minutes. A few days before the event you will also receive the instructions on how to join it online.
+register:form:submitted_successfully_message_event_day,Thank you for registering! The URL to access the event is <a href="https://youtu.be/ih70QEf8Scs">https://youtu.be/ih70QEf8Scs</a>. We have also emailed you this information. We hope you will enjoy the event!
+register:intro,"If you would like to attend the International Effective Giving Day event on November 30, please register by filling in the following form. You will receive a confirmation email and we will send the link to join the event to that same email address a few days before the event."
+register:title,Register
+"registration:dialog:body:email_""{0}""_confirmed_ok","Email ""{0}"" confirmed successfully."
+"registration:dialog:body:email_""{0}""_confirmed_previously","Email ""{0}"" confirmed previously."
+registration:dialog:body:error_confirming_your_email.,Error with your email confirmation.
+registration:dialog:title:registration_subscription,Registration
+registration:email:body:click_here_to_verify,Click here to verify your email
+registration:email:body:verify_your_email,Thank you for your interest in the International Effective Giving Day! <strong>Please confirm your email address to complete your registration</strong>:
+registration:email:subject,Please confirm your email address to complete your registration
+section:about:intro,International Effective Giving Day is an online event giving you the chance to hear from some of the world's most eminent thinkers in effective philanthropy.
+section:about:list:1,Keynote address: Nobel Laureate Professor <strong>Michael Kremer</strong>
+section:about:list:2,Supported by the world’s leading organizations in effective philanthropy and charity evaluation
+section:about:list:3,"Also featuring: Johannes Ackva (Climate Lead <strong>Founders Pledge</strong>), Leah Edgerton (Executive Director <strong>Animal Charity Evaluators</strong>), Neil Buddy Shah (Managing Director, <strong>GiveWell</strong>)"
+section:about:list:4,section:about:list:4
+section:about:title,About the event
+section:agenda:intro,"Join us on November 30, 2020 for two hours packed with the latest information on the most effective ways to tackle some of the world’s most pressing problems."
+section:agenda:title,Agenda
+section:partners:organized_by,Organized by
+section:partners:supported_by,With the support of
+section:speakers:intro,section:speakers:intro
+section:speakers:see_all_speakers,See all speakers
+section:speakers:title,Speakers
+section:why:1:title,Can non-profits make a dent on the world’s biggest problems?
+section:why:2:title,Are all charities just as good? How can we compare them?
+section:why:3:title,I want to give - but how can I decide which charities to support?
+section:why:4:title,How can I be sure that my money will have real impact?
+section:why:intro,Have you ever wondered how much you can actually improve the world through charitable giving? Our speakers will shed light on the key questions you have to answer if you care about having an impact:
+section:why:title,Why you should attend
+speakers:1:description,"Professor Michael Kremer is one of the world’s most influential development economists. Prof. Kremer pioneered the use of randomised control trials to measure the impact of interventions and identify practical solutions which can benefit low-income people in developing countries. He has produced some of the most influential research in the field, notably a 20-year study showing the lasting positive effects of school-based deworming programmes, the development of new approaches to water treatment, and a series of studies showing how digitally delivered agricultural advice can cost-effectively improve outcomes for smallholder farmers."
+speakers:1:intro,"University Professor in Economics and the College and the Harris School of Public Policy, Director of the Development Innovation Lab, University of Chicago. Nobel Prize winner."
+speakers:2:description,<a href='https://www.givewell.org/'>GiveWell</a> is a nonprofit dedicated to finding outstanding giving opportunities and publishing the full details of our analysis to help donors decide where to give.
+speakers:2:intro,"GiveWell, Managing Director"
+speakers:3:description,<a href='https://animalcharityevaluators.org/'>Animal Charity Evaluators</a> is a non-profit charity evaluator dedicated to finding and promoting the most effective ways to help animals.
+speakers:3:intro,"Animal Charity Evaluators, Executive Director"
+speakers:4:description,<a href='https://founderspledge.com/'>Founders Pledge</a> is a global community of entrepreneurs with the goal of finding and funding solutions to the world’s most pressing problems.
+speakers:4:intro,"Founders Pledge, Climate Lead"
+speakers:5:description,<a href='https://www.thelifeyoucansave.org/'>The Life You Can Save</a> makes “smart giving simple” by curating a group of nonprofits that save or improve the most lives per dollar.
+speakers:5:intro,"The Life You Can Save, Executive Director"
+speakers:6:intro,"RC Forward, Manager of Operations"
+speakers:7:description,<a href='https://www.1fortheworld.org/'>One for the World</a> is a movement of people revolutionizing charitable giving to end extreme poverty. Our members pledge 1% of their income to the world's most cost-effective charities.
+speakers:7:intro,"One for the World, Executive Director"
+speakers:8:description,<a href='https://ayudaefectiva.org/'>Ayuda Efectiva</a> has the mission of developing effective giving in Spain. Their Global Health Fund selects and supports the projects that improve the lives of people living in extreme poverty in the most cost-effective ways.
+speakers:8:intro,"Ayuda Efectiva, President"
+speakers:9:description,<a href='https://www.effektiv-spenden.org/'>effektiv-spenden.org</a> enables German donors to support some of the worlds most effective charities in a tax deductible way. All our recommendations are vetted by independent experts from around the world.
+speakers:9:intro,"effektiv-spenden.org, Executive Director"

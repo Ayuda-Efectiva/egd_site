@@ -51,7 +51,7 @@ Existen muchos tipos de cookies. A continuación, ofrecemos al usuario algunas c
 
 ### ¿Quién es el responsable de este servicio?
 
-Este Servicio es responsabilidad de FUNDACIÓN AYUDA EFECTIVA, con NIF G88444278, domiciliada en Calle Rozabella, 6 (Centro Europa Empresarial), Edificio París, planta 0, oficina 13, 28290 Las Rozas, Madrid, e inscrita en el Registro de Fundaciones con el número 2263.
+Este Servicio es responsabilidad de FUNDACIÓN AYUDA EFECTIVA, con NIF G88444278, domiciliada en Calle Vaguada del Arcipreste, 2 bis, 28220 Majadahonda, Madrid, e inscrita en el Registro de Fundaciones con el número 2263.
 
 ### ¿Qué tecnologías utilizamos?
 
