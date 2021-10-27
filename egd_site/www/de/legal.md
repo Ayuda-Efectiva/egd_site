@@ -10,9 +10,9 @@ Effectivegivingday.org (nachfolgend die WEBSITE) ist eine von FUNDACIÓN AYUDA E
 
 NIF: G884444278
 
-ADRESSE: Calle Rozabella, 6 (Centro Europa Empresarial), Edificio París, planta 0, oficina 13, 28290 Las Rozas, Madrid
+ADRESSE: Calle Vaguada del Arcipreste, 2 bis, 28220 Majadahonda, Madrid
 
-POSTLEITZAHL: 28290
+POSTLEITZAHL: 28220
 
 STANDORT: Madrid
 

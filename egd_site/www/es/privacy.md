@@ -6,7 +6,7 @@ body_class: legal-content
 
 ## 1. Identidad del responsable del tratamiento
 
-La información facilitada por el USUARIO a través de cualquiera de los formularios del SITIO WEB será incluida en uno o varios ficheros responsabilidad de FUNDACIÓN AYUDA EFECTIVA (en adelante, LA FUNDACIÓN), con domicilio social en Calle Rozabella, 6 (Centro Europa Empresarial), Edificio París, planta 0, oficina 13, 28290 Las Rozas, Madrid.
+La información facilitada por el USUARIO a través de cualquiera de los formularios del SITIO WEB será incluida en uno o varios ficheros responsabilidad de FUNDACIÓN AYUDA EFECTIVA (en adelante, LA FUNDACIÓN), con domicilio social en Calle Vaguada del Arcipreste, 2 bis, 28220 Majadahonda, Madrid.
 
 ## 2. Finalidades del tratamiento
 
@@ -48,7 +48,7 @@ Asimismo, al pulsar el botón “Enviar", "Aceptar", "Suscribirse” u otros an�
 
 ## 5. Ejercicio de derechos
 
-El USUARIO podrá revocar su consentimiento y ejercer sus derechos de acceso, rectificación y cancelación / supresión de sus datos de carácter personal, así como, limitar o directamente oponerse al tratamiento o ejercer el derecho a la portabilidad de los mismos, a través de un correo electrónico a la dirección info @ ayudaefectiva.org o a través de la dirección postal Calle Rozabella, 6 (Centro Europa Empresarial), Edificio París, planta 0, oficina 13, 28290 Las Rozas, Madrid, identificándose como USUARIO del SITIO WEB, aportando fotocopia del DNI o documento equivalente y concretando su solicitud.
+El USUARIO podrá revocar su consentimiento y ejercer sus derechos de acceso, rectificación y cancelación / supresión de sus datos de carácter personal, así como, limitar o directamente oponerse al tratamiento o ejercer el derecho a la portabilidad de los mismos, a través de un correo electrónico a la dirección info @ ayudaefectiva.org o a través de la dirección postal Calle Vaguada del Arcipreste, 2 bis, 28220 Majadahonda, Madrid, identificándose como USUARIO del SITIO WEB, aportando fotocopia del DNI o documento equivalente y concretando su solicitud.
 
 Asimismo, en caso de considerar vulnerado su derecho a la protección de datos de carácter personal, podrá presentar una reclamación ante la Agencia Española de Protección de Datos (www.aepd.es).
 

@@ -6,7 +6,7 @@ body_class: legal-content
 
 ## 1. Identity of the person responsible for the processing of data
 
-The information provided by the USER through any of the forms on the WEBSITE will be included in one or more files under the responsibility of FUNDACIÓN AYUDA EFECTIVA (hereafter, the “FOUNDATION”), with registered office at Calle Rozabella, 6 (Centro Europa Empresarial), Edificio París, planta 0, oficina 13, 28290 Las Rozas, Madrid.
+The information provided by the USER through any of the forms on the WEBSITE will be included in one or more files under the responsibility of FUNDACIÓN AYUDA EFECTIVA (hereafter, the “FOUNDATION”), with registered office at Calle Vaguada del Arcipreste, 2 bis, 28220 Majadahonda, Madrid.
 
 ## 2. Purposes of processing
 
@@ -47,7 +47,7 @@ Likewise, by clicking on the "Send", "Accept", "Subscribe" or other similar butt
 
 ## 5. Exercise of rights
 
-The USER may revoke their consent and exercise their rights of access, rectification and cancellation/deletion of their personal data, as well as limit or directly oppose the processing, or exercise the right to the portability of the same, through an email to the address info @ ayudaefectiva. org or via the postal address Calle Rozabella, 6 (Centro Europa Empresarial), Edificio París, planta 0, oficina 13, 28290 Las Rozas, Madrid, identifying themselves as a USER of the WEBSITE, providing a photocopy of their ID card or equivalent document and specifying their request.
+The USER may revoke their consent and exercise their rights of access, rectification and cancellation/deletion of their personal data, as well as limit or directly oppose the processing, or exercise the right to the portability of the same, through an email to the address info @ ayudaefectiva. org or via the postal address Calle Vaguada del Arcipreste, 2 bis, 28220 Majadahonda, Madrid, identifying themselves as a USER of the WEBSITE, providing a photocopy of their ID card or equivalent document and specifying their request.
 
 Likewise, if they consider their right to the protection of personal data has been violated, they may file a claim with the Spanish Data Protection Agency (www.aepd.es).
 

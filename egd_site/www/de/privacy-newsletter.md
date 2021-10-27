@@ -6,7 +6,7 @@ body_class: legal-content
 
 ## Schutz persönlicher Daten
 
-Die zur Verfügung gestellten persönlichen Daten werden in eine Datei unter der Verantwortung von FUNDACIÓN AYUDA EFECTIVA (nachfolgend die STIFTUNG) mit Adresse in der Calle Rozabella, 6 (Centro Europa Empresarial), Edificio París, planta 0, oficina 13, 28290 Las Rozas, Madrid, aufgenommen, mit dem Zweck, Ihnen den Newsletter über Informationen, Neuigkeiten oder Veranstaltungen der STIFTUNG zuzusenden.
+Die zur Verfügung gestellten persönlichen Daten werden in eine Datei unter der Verantwortung von FUNDACIÓN AYUDA EFECTIVA (nachfolgend die STIFTUNG) mit Adresse in der Calle Vaguada del Arcipreste, 2 bis, 28220 Majadahonda, Madrid, aufgenommen, mit dem Zweck, Ihnen den Newsletter über Informationen, Neuigkeiten oder Veranstaltungen der STIFTUNG zuzusenden.
 
 Die rechtliche Grundlage für diese Verarbeitung ist Ihre Einwilligung, die Sie bei der Versendung Ihrer Newsletter-Abonnementanfrage gegeben haben. Die Daten werden auf unbestimmte Zeit vorgehalten, bis Sie Ihre Zustimmung widerrufen oder die Löschung Ihrer Daten beantragen. Die persönlichen Daten werden nicht an Dritte weitergegeben, es sei denn, es besteht eine gesetzliche Verpflichtung dazu.
 

@@ -6,7 +6,7 @@ body_class: legal-content
 
 ## Personal data protection
 
-The personal data provided will be included in a file under the responsibility of FUNDACIÓN AYUDA EFECTIVA (hereafter the “FOUNDATION”), of Calle Rozabella, 6 (Centro Europa Empresarial), Edificio París, planta 0, oficina 13, 28290 Las Rozas, Madrid, for the purpose of sending you a newsletter about information, news or events of the FOUNDATION.
+The personal data provided will be included in a file under the responsibility of FUNDACIÓN AYUDA EFECTIVA (hereafter the “FOUNDATION”), of Calle Vaguada del Arcipreste, 2 bis, 28220 Majadahonda, Madrid, for the purpose of sending you a newsletter about information, news or events of the FOUNDATION.
 
 The legal basis for this processing is your consent given at the time of sending your request to subscribe to the newsletter. The data will be processed indefinitely until you revoke your consent or request the deletion of your data. The personal data will not be transferred to third parties unless the FOUNDATION is legally obliged to do so.
 

@@ -6,7 +6,7 @@ body_class: legal-content
 
 ## Protección de datos personales
 
-Los datos personales facilitados serán incorporados en un fichero responsabilidad de FUNDACIÓN AYUDA EFECTIVA (en adelante la FUNDACIÓN) con domicilio en Calle Rozabella, 6 (Centro Europa Empresarial), Edificio París, planta 0, oficina 13, 28290 Las Rozas, Madrid, con la finalidad de enviarle la newsletter sobre información, novedades o eventos de la FUNDACIÓN.
+Los datos personales facilitados serán incorporados en un fichero responsabilidad de FUNDACIÓN AYUDA EFECTIVA (en adelante la FUNDACIÓN) con domicilio en Calle Vaguada del Arcipreste, 2 bis, 28220 Majadahonda, Madrid, con la finalidad de enviarle la newsletter sobre información, novedades o eventos de la FUNDACIÓN.
 
 La base jurídica que legitima este tratamiento es su consentimiento manifestado en el momento de enviar su solicitud de suscripción a la newsletter. Los datos serán tratados de forma indefinida hasta que revoque su consentimiento o solicite la supresión de sus datos. Los datos personales no serán cedidos a terceras personas salvo obligación legal.
 
