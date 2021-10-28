@@ -59,42 +59,45 @@ from frappe.website.render import render_page_by_language as frappe_render_page_
 frappe.website.render.render_page_by_language = egd_render_page_by_language
 
 
-def egd_guess_language(lang_list=None) -> str:
-	"""Set `frappe.local.lang` from url language segment: `/xx/...`"""
-	if is_app_for_actual_site():
-		from .hooks import translated_languages_for_website as languages
-		if languages:
-			# If language passed in url like: `url?_lang=xx`
-			if frappe.local.form_dict._lang and frappe.local.form_dict._lang in languages:
-				lang = frappe.local.form_dict._lang
-			else:
-				path = frappe.local.request.path
-				# Default language first in list
-				lang = languages[0]
-				# /xx || /xx/path 
-				if (len(path) == 3 or (len(path) > 3 and path[3:4] == "/")) and path[1:3] in languages:
-					lang = path[1:3]
-			frappe.lang = frappe.local.lang = lang
-			return lang
-	return frappe_guess_language(lang_list)
+# def egd_guess_language(lang_list=None) -> str:
+# 	"""Set `frappe.local.lang` from url language segment: `/xx/...`"""
+# 	if is_app_for_actual_site():
+# 		lang = "en"
+# 		frappe.lang = frappe.local.lang = lang
+# 		return lang
+# 		# from .hooks import translated_languages_for_website as languages
+# 		# if languages:
+# 		# 	# If language passed in url like: `url?_lang=xx`
+# 		# 	if frappe.local.form_dict._lang and frappe.local.form_dict._lang in languages:
+# 		# 		lang = frappe.local.form_dict._lang
+# 		# 	else:
+# 		# 		path = frappe.local.request.path
+# 		# 		# Default language first in list
+# 		# 		lang = languages[0]
+# 		# 		# /xx || /xx/path 
+# 		# 		if (len(path) == 3 or (len(path) > 3 and path[3:4] == "/")) and path[1:3] in languages:
+# 		# 			lang = path[1:3]
+# 		# 	frappe.lang = frappe.local.lang = lang
+# 		# 	return lang
+# 	# return frappe_guess_language(lang_list)
 
-from frappe.translate import guess_language as frappe_guess_language
-frappe.translate.guess_language = egd_guess_language
-from frappe import auth
-auth.guess_language = egd_guess_language
-from frappe.website import render
-render.guess_language = egd_guess_language
+# from frappe.translate import guess_language as frappe_guess_language
+# frappe.translate.guess_language = egd_guess_language
+# from frappe import auth
+# auth.guess_language = egd_guess_language
+# from frappe.website import render
+# render.guess_language = egd_guess_language
 
 
-def egd_get_user_lang(user=None) -> str:
-	"""If user logged use guessed language on session beginning or resumption"""
-	if is_app_for_actual_site():
-		return frappe.local.lang
-	else:
-		return frappe_get_user_lang(user)
+# def egd_get_user_lang(user=None) -> str:
+# 	"""If user logged use guessed language on session beginning or resumption"""
+# 	if is_app_for_actual_site():
+# 		return frappe.local.lang
+# 	else:
+# 		return frappe_get_user_lang(user)
 
-from frappe.translate import get_user_lang as frappe_get_user_lang
-frappe.translate.get_user_lang = egd_get_user_lang
+# from frappe.translate import get_user_lang as frappe_get_user_lang
+# frappe.translate.get_user_lang = egd_get_user_lang
 
 
 def egd_load_lang(lang, apps=None):

@@ -66,11 +66,11 @@ website_redirects = [
 	# Avoid framework contact and about pages being accesible 
 	{ "source": "/about", "target": "/" },
 	{ "source": "/contact", "target": "/" },
-	# Languages: Remove main language segment. For example,
-	# if "en" is first one in "translated_languages_for_website"
-	# then route "/en/example" will be redirected 301 to "/example"
-	{ "source": r"/{0}".format(language_default), "target": "/" },
-	{ "source": r"/{0}/(.*)".format(language_default), "target": r"/\1" },
+	# # Languages: Remove main language segment. For example,
+	# # if "en" is first one in "translated_languages_for_website"
+	# # then route "/en/example" will be redirected 301 to "/example"
+	# { "source": r"/{0}".format(language_default), "target": "/" },
+	# { "source": r"/{0}/(.*)".format(language_default), "target": r"/\1" },
 ]
 
 # Url rewrites
