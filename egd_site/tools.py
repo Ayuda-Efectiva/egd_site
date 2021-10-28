@@ -14,9 +14,11 @@ def context_extend(context):
 
 	languages = frappe.get_hooks("translated_languages_for_website")
 
+	frappe.local.lang = "en"
 	context["lang"] = frappe.local.lang
 	context["languages"] = languages
-	context["url_lang"] = "" if frappe.local.lang == languages[0] else "/{0}".format(frappe.local.lang)
+	# context["url_lang"] = "" if frappe.local.lang == languages[0] else "/{0}".format(frappe.local.lang)
+	context["url_lang"] = ""
 
 	path = frappe.local.request.path
 
