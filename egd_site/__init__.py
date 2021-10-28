@@ -62,7 +62,9 @@ frappe.website.render.render_page_by_language = egd_render_page_by_language
 def egd_guess_language(lang_list=None) -> str:
 	"""Set `frappe.local.lang` from url language segment: `/xx/...`"""
 	if is_app_for_actual_site():
-		return "en"
+		lang = "en"
+		frappe.lang = frappe.local.lang = lang
+		return lang
 		# from .hooks import translated_languages_for_website as languages
 		# if languages:
 		# 	# If language passed in url like: `url?_lang=xx`
