@@ -5,6 +5,7 @@
 			<div class="col-12">
 				<div class="section-title-header text-center">
 					<h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">{{ _('register:title') }}</h1>
+					{#
 					<p class="text-center my-5">
 						<!-- EVENT LIVE -->
 						<!-- <a class="btn btn-common mb-5" href="https://youtu.be/ih70QEf8Scs" target="_blank">
@@ -15,18 +16,18 @@
 							{% if lang=='es' %}Suscríbete a nuestra newsletter{% elif lang=='de' %}Melde dich für unseren Newsletter an{% else %}Join our newsletter{% endif %}
 						</a>
 					</p>
-					{#<!-- <p class="wow fadeInDown" data-wow-delay="0.2s">{{ _('register:intro') }}</p> -->#}
+					<!-- <p class="wow fadeInDown" data-wow-delay="0.2s">{{ _('register:intro') }}</p> -->
+					#}
 				</div>
 			</div>
 		</div>
-		{# FORM HIDDEN!!!!!
 		<div class="row justify-content-center">
 			<div class="col-lg-8 col-md-12 col-xs-12">
 				<div class="container-form wow fadeInLeft" data-wow-delay="0.2s">
 					<div class="form-wrapper form-registration">
 						<form class="bs-validation" novalidate>
-							<!-- FORM (FIELDSET) DISABLED BECAUSE EVENT IS FINISHED -->
-							<fieldset disabled="disabled">
+							<!--  disabled="disabled" FORM (FIELDSET) DISABLED BECAUSE EVENT IS FINISHED -->
+							<fieldset>
 								<div class="row">
 									<div class="col-md-4">
 										<div class="form-group">
@@ -108,13 +109,12 @@
 							</fieldset>
 						</form>
 						<!-- FORM SUBMITTED PRE EVENT -->
-						<!-- <div class="alert alert-success hide">{{ _('register:form:submitted_successfully_message') }}</div> -->
+						<div class="alert alert-success hide">{{ _('register:form:submitted_successfully_message') }}</div>
 						<!-- FORM SUBMITTED SAME EVENT DAY -->
-						<div class="alert alert-success hide">{{ _('register:form:submitted_successfully_message_event_day') }}</div>
+						<!-- <div class="alert alert-success hide">{{ _('register:form:submitted_successfully_message_event_day') }}</div> -->
 					</div>
 				</div>
 			</div>
 		</div>
-		#}
 	</div>
 </section>
