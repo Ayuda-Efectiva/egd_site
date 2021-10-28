@@ -34,11 +34,11 @@ def site_env() -> str:
 
 def egd_render_page_by_language(path):
 	if is_app_for_actual_site():
-		from frappe.translate import guess_language
+		# from frappe.translate import guess_language
 		from frappe.website.render import render_page
 
 		translated_languages = frappe.get_hooks("translated_languages_for_website")
-		user_lang = guess_language(translated_languages)
+		user_lang = "en" #guess_language(translated_languages)
 		if translated_languages and translated_languages.index(user_lang) == 0:
 			try:
 				if path and path in ("login", "desk", "app", "access", "message"):
@@ -62,20 +62,21 @@ frappe.website.render.render_page_by_language = egd_render_page_by_language
 def egd_guess_language(lang_list=None) -> str:
 	"""Set `frappe.local.lang` from url language segment: `/xx/...`"""
 	if is_app_for_actual_site():
-		from .hooks import translated_languages_for_website as languages
-		if languages:
-			# If language passed in url like: `url?_lang=xx`
-			if frappe.local.form_dict._lang and frappe.local.form_dict._lang in languages:
-				lang = frappe.local.form_dict._lang
-			else:
-				path = frappe.local.request.path
-				# Default language first in list
-				lang = languages[0]
-				# /xx || /xx/path 
-				if (len(path) == 3 or (len(path) > 3 and path[3:4] == "/")) and path[1:3] in languages:
-					lang = path[1:3]
-			frappe.lang = frappe.local.lang = lang
-			return lang
+		return "en"
+		# from .hooks import translated_languages_for_website as languages
+		# if languages:
+		# 	# If language passed in url like: `url?_lang=xx`
+		# 	if frappe.local.form_dict._lang and frappe.local.form_dict._lang in languages:
+		# 		lang = frappe.local.form_dict._lang
+		# 	else:
+		# 		path = frappe.local.request.path
+		# 		# Default language first in list
+		# 		lang = languages[0]
+		# 		# /xx || /xx/path 
+		# 		if (len(path) == 3 or (len(path) > 3 and path[3:4] == "/")) and path[1:3] in languages:
+		# 			lang = path[1:3]
+		# 	frappe.lang = frappe.local.lang = lang
+		# 	return lang
 	return frappe_guess_language(lang_list)
 
 from frappe.translate import guess_language as frappe_guess_language
