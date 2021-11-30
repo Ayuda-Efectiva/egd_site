@@ -34,11 +34,12 @@ def site_env() -> str:
 
 def egd_render_page_by_language(path):
 	if is_app_for_actual_site():
-		from frappe.translate import guess_language
 		from frappe.website.render import render_page
 
 		translated_languages = frappe.get_hooks("translated_languages_for_website")
-		user_lang = guess_language(translated_languages)
+		user_lang = frappe.translate.get_language(translated_languages)
+		if not user_lang in translated_languages:
+			user_lang = "en"
 		if translated_languages and translated_languages.index(user_lang) == 0:
 			try:
 				if path and path in ("login", "desk", "app", "access", "message", "unsubscribe"):
