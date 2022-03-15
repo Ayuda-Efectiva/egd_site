@@ -51,7 +51,7 @@ def context_extend(context):
 	return context
 
 
-@frappe.whitelist(allow_guest=True)
+@frappe.whitelist(allow_guest=True, xss_safe=True)
 def subscribe(email):
 	from frappe.utils.verified_command import get_signed_params
 
@@ -69,7 +69,7 @@ def subscribe(email):
 		content=content, delayed=False)
 
 
-@frappe.whitelist(allow_guest=True)
+@frappe.whitelist(allow_guest=True, xss_safe=True)
 def confirm_subscription(email):
 	from frappe.utils.verified_command import verify_request
 	if not verify_request():
@@ -118,7 +118,7 @@ def confirm_subscription(email):
 	frappe.respond_as_web_page(**message)
 
 
-@frappe.whitelist(allow_guest=True)
+@frappe.whitelist(allow_guest=True, xss_safe=True)
 def contact(email, full_name, country_code, subject, message, press = 0):
 	subject = "{0} ({1}): {2}".format("EGD: PRESS CONTACT" if int(press) else "EGD: USER CONTACT",
 	country_code, subject)
@@ -159,7 +159,7 @@ def contact(email, full_name, country_code, subject, message, press = 0):
 	return "success"
 
 
-@frappe.whitelist(allow_guest=True)
+@frappe.whitelist(allow_guest=True, xss_safe=True)
 def registration(firstname, lastname, email, country_code, occupation, organization, title, donation, familiarity):
 	doc = frappe.get_doc({
 		"doctype": "Web Registration",
@@ -218,7 +218,7 @@ def registration(firstname, lastname, email, country_code, occupation, organizat
 	return "success"
 
 
-@frappe.whitelist(allow_guest=True)
+@frappe.whitelist(allow_guest=True, xss_safe=True)
 def confirm_registration(email):
 	from frappe.utils.verified_command import verify_request
 	if not verify_request():

@@ -12,7 +12,7 @@ path_site_app = "{0}/apps/{1}/".format(path_bench, site_app)
 
 # Called when pushing to: https://github.com/Ayuda-Efectiva/egd_site
 # /api/method/egd_site.deploy.github_site
-@frappe.whitelist(allow_guest=True)
+@frappe.whitelist(allow_guest=True, xss_safe=True)
 def github_site():
 	import hashlib
 	import hmac
