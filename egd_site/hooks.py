@@ -115,8 +115,8 @@ website_context = {
 # 	"Event": "frappe.desk.doctype.event.event.get_permission_query_conditions",
 # }
 #
-# has_permission = {
-# 	"Event": "frappe.desk.doctype.event.event.has_permission",
+# has_website_permission = {
+# 	"Event": "frappe.desk.doctype.event.event.has_website_permission",
 # }
 
 # Document Events
