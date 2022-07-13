@@ -16,7 +16,7 @@ def get_context(context):
 
 
 # /api/method/egd_site.acceso.check_code
-@frappe.whitelist(allow_guest=True)
+@frappe.whitelist(allow_guest=True, xss_safe=True)
 def check_code(code=""):
 	frappe.response["result"] = False
 	if not code:
