@@ -53,7 +53,7 @@ def get_context(context):
 
 		mem_file = io.StringIO()
 		w = writer(mem_file, lineterminator="\n")
-		for p, m in messages:
+		for p, m, _, _ in messages:
 			translated = m
 			if (m in ctx_lang["translated"][lang] and ctx_lang["translated"][lang][m] not in [m, ""]):
 				translated = ctx_lang["translated"][lang][m]

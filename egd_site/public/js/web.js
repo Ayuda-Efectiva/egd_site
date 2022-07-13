@@ -262,9 +262,6 @@ frappe.ready(function() {
 // <Override call from /frappe/public/js/frappe/request.js
 frappe.call_cloned = frappe.call.bind({})
 frappe.call = function(opts) {
-	if (opts['method'] == 'frappe.website.doctype.website_settings.website_settings.is_chat_enabled') {
-		return false
-	}
 	// Add language to all ajax calls
 	opts.args = $.extend({}, opts.args || {}, { '_lang': window.context.lang })
 	return frappe.call_cloned(opts)
