@@ -14,7 +14,7 @@ def context_extend(context):
 
 	languages = frappe.get_hooks("translated_languages_for_website")
 
-	frappe.local.lang = "en"
+	frappe.local.lang = frappe.local.lang or "en"
 	context["lang"] = frappe.local.lang
 	context["languages"] = languages
 	# context["url_lang"] = "" if frappe.local.lang == languages[0] else "/{0}".format(frappe.local.lang)
@@ -252,4 +252,3 @@ def confirm_registration(email):
 	# 	title=message.title,
 	# 	html=message.html
 	# )
-

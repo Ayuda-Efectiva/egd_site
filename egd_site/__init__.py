@@ -40,9 +40,13 @@ def egd_render_page_by_language(path):
 		user_lang = frappe.translate.get_language(translated_languages)
 		if not user_lang in translated_languages:
 			user_lang = "en"
+
+		frappe.lang = user_lang
+		frappe.local.lang = user_lang
+
 		if translated_languages and translated_languages.index(user_lang) == 0:
 			try:
-				if path and path in ("login", "desk", "app", "access", "message", "unsubscribe"):
+				if path and path in ("login", "desk", "app", "access", "message", "unsubscribe", "translations"):
 					lang_path = path
 				elif path and path != "index":
 					lang_path = '{0}/{1}'.format(user_lang, path)
