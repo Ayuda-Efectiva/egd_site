@@ -3,7 +3,7 @@
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-lg-8 col-md-12 col-xs-12">
-				<div class="form-subscribe subscribe-inner wow fadeInDown" data-wow-delay="0.3s">
+				{#<!-- <div class="form-subscribe subscribe-inner wow fadeInDown" data-wow-delay="0.3s">
 					<h2 class="subscribe-title">{{ _('newsletter:stay_up_to_date') }}</h2>
 					<form class="bs-validation row justify-content-center" novalidate>
 						<input class="form-control mb-2 col-xs-12 col-md-8" name="email" placeholder="{{ _('newsletter:form:email') }} *" pattern="^.+@.+\..+$" required>
@@ -19,14 +19,15 @@
 								<input class="custom-control-input" name="accepted" type="checkbox" id="form-subscribe-conditions" required>
 								<label class="custom-control-label text-left" for="form-subscribe-conditions">
 									{{ _('newsletter:form:privacy_accept') }} *
-									{#<!-- {{ _('form:i_have_read_and_agree') }}
-									(<a href="{{ url_lang }}/privacy-newsletter" target="_blank">{{ _('link:view') }}</a>) -->#}
+									{ #< !-- {{ _('form:i_have_read_and_agree') }}
+									(<a href="{{ url_lang }}/privacy-newsletter" target="_blank">{{ _('link:view') }}</a>) - -># }
 								</label>
 							</div>
 						</div>
 					</form>
 					<div class="alert alert-success hide">{{ _('newsletter:form:submitted_successfully_message') }}</div>
-				</div>
+				</div> -->#}
+				<p class="replace-for-newsletterbox p-20">&nbsp;</p>
 				<div class="footer-logo">
 					<img src="/assets/egd_site/images/effective-giving-day-logo-inverted.svg" alt="">
 				</div>
