@@ -3,21 +3,32 @@
 Effective Altruism Day Website based on Frappe Framework.
 
 
-# Setup
+# Setup locally
 
-## Install Frappe
-Please follow instructions from: [https://frappeframework.com/docs/user/en/installation](https://frappeframework.com/docs/user/en/installation).
+## Install Frappe 14
+Follow all steps for your OS within official guide: [https://frappeframework.com/docs/v14/user/en/installation](https://frappeframework.com/docs/v14/user/en/installation).
 
 
-## Create a new site
+## Create your personal "frappe-bench" environment (customizable)
+
+Into your home folder:
 
 ```
-bench new-site --db-name db_egd --mariadb-root-password ******* --force egd.local
+cd ~
+bench init frappe-bench
+```
+
+## Create a new site inside your "frappe-bench" folder
+
+```
+cd ~/frappe-bench
+bench new-site egd.local
 ```
 
 ## Install app on created site
 
 ```
+cd ~/frappe-bench
 bench get-app git@github.com:Ayuda-Efectiva/egd_site.git
 bench update --requirements
 bench --site egd.local install-app egd_site
@@ -26,11 +37,13 @@ bench --site egd.local install-app egd_site
 ## Load your local site
 
 ```
+cd ~/frappe-bench
 bench start
 ```
 
-Add **egd.local** to your hosts file pointing to **localhost** and load **egd.local:8000** in your browser.
+Add **egd.local** to your hosts file pointing to **localhost** and load **egd.local:[port]** in your browser. If you are not sure about the port, just check the port inside file "~/frappe-bench/Procfile" within line starting with "web:"
 
+Now you can load the url http://egd.local:[port] into your browser.
 
 # Multilanguage
 
