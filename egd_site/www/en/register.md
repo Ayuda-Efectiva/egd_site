@@ -1,6 +1,6 @@
 ---
 title: Register
-meta_description: Register to attend the International Effective Giving Day online event on November 30, 2020
+meta_description: Register to attend the Effective Giving Day online event on the 28th November 2022
 sitemap: 1
 ---
 

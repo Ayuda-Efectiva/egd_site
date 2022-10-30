@@ -55,12 +55,12 @@ get_involved:intro,
 get_involved:title,Get involved
 get_involved:us_ca_gb:title,"USA, UK, Australia & Canada"
 global:image_credit,Credit:
-hero:intro,Give with your head as well as your heart: Discover how the ideas of effective giving can help you maximize your impact when donating to the causes you care about
+hero:intro,Care about doing good in the world but unsure where to start? Effective Giving Day is here to help you make a difference!
 hero:place_date_extra_date,"November 30, 2020"
 hero:place_date_extra_place,Free online event
 hero:place_date_extra_time,6:45 p.m. CET
 hero:register_button,REGISTER NOW
-hero:title,International Effective Giving Day
+hero:title,Effective Giving Day
 link:agenda,Agenda
 link:contact,Contact
 link:cookies,Cookies
@@ -108,16 +108,16 @@ register:form:select_occupation,Select your occupation
 register:form:submit,Register
 register:form:submitted_successfully_message,<strong>Thank you for registering!</strong> You you will receive a confirmation email within a few minutes. A few days before the event you will also receive the instructions on how to join it online.
 register:form:submitted_successfully_message_event_day,Thank you for registering! The URL to access the event is <a href="https://youtu.be/ih70QEf8Scs">https://youtu.be/ih70QEf8Scs</a>. We have also emailed you this information. We hope you will enjoy the event!
-register:intro,"If you would like to attend the International Effective Giving Day event on November 30, please register by filling in the following form. You will receive a confirmation email and we will send the link to join the event to that same email address a few days before the event."
+register:intro,"If you would like to attend the Effective Giving Day event on the 28th November, please register by filling in the following form. You will receive a confirmation email and we will send the link to join the event to that same email address a few days before the event."
 register:title,Register
 "registration:dialog:body:email_""{0}""_confirmed_ok","Email ""{0}"" confirmed successfully."
 "registration:dialog:body:email_""{0}""_confirmed_previously","Email ""{0}"" confirmed previously."
 registration:dialog:body:error_confirming_your_email.,Error with your email confirmation.
 registration:dialog:title:registration_subscription,Registration
 registration:email:body:click_here_to_verify,Click here to verify your email
-registration:email:body:verify_your_email,Thank you for your interest in the International Effective Giving Day! <strong>Please confirm your email address to complete your registration</strong>:
+registration:email:body:verify_your_email,Thank you for your interest in Effective Giving Day! <strong>Please confirm your email address to complete your registration</strong>:
 registration:email:subject,Please confirm your email address to complete your registration
-section:about:intro,International Effective Giving Day is an online event giving you the chance to hear from some of the world's most eminent thinkers in effective philanthropy.
+section:about:intro,Effective Giving Day is an online event giving you the chance to hear from some of the world's most eminent thinkers in effective philanthropy.
 section:about:list:1,Keynote address: Nobel Laureate Professor <strong>Michael Kremer</strong>
 section:about:list:2,Supported by the world’s leading organizations in effective philanthropy and charity evaluation
 section:about:list:3,"Also featuring: Johannes Ackva (Climate Lead <strong>Founders Pledge</strong>), Leah Edgerton (Executive Director <strong>Animal Charity Evaluators</strong>), Neil Buddy Shah (Managing Director, <strong>GiveWell</strong>)"
