@@ -117,12 +117,6 @@ registration:dialog:title:registration_subscription,¡Gracias por registrarte!
 registration:email:body:click_here_to_verify,Haz clic para verificar tu email
 registration:email:body:verify_your_email,"¡Gracias por tu interés en el Día Internacional de la Ayuda Efectiva!<br><br><strong>Por favor, confirma tu dirección de email para completar tu registro</strong>:"
 registration:email:subject,"Por favor, confirma tu registro (acción necesaria)"
-section:about:intro,El Día Internacional de la Ayuda Efectiva es un evento online en el que podrás asistir a ponencias y conversaciones con algunas de las figuras clave en el campo de la filantropía efectiva.
-section:about:list:1,"Ponente principal: <strong>Michael Kremer, Premio Nobel de Economía de 2019</strong>"
-section:about:list:2,Un evento apoyado por las organizaciones líderes en filantropía efectiva y evaluación de proyectos benéficos
-section:about:list:3,"Con ponencias de Johannes Ackva (<strong>Founders Pledge</strong>), Leah Edgerton (<strong>Animal Charity Evaluators</strong>) y Neil Buddy Shah (<strong>GiveWell</strong>)"
-section:about:list:4,section:about:list:4
-section:about:title,Acerca del evento
 section:agenda:intro,Únete a nosotros el 30 de noviembre de 2020 para asistir a dos horas repletas de información acerca de las formas más efectivas para solucionar algunos de los problemas más urgentes del mundo.<br><br><strong>El idioma de todas las ponencias será el inglés.</strong>
 section:agenda:title,Agenda
 section:partners:organized_by,Organizado por
