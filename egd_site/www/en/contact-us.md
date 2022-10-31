@@ -10,7 +10,7 @@ sitemap: 1
 			<div class="col-12">
 				<div class="section-title-header text-center">
 					<h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">{{ _('contact:title') }}</h1>
-					<p class="mt-10">Please email community@givingwhatwecan.org if you have any questions about Effective Giving Day for 2022.</p>
+					<p class="banner-desc mt-10">Please email community@givingwhatwecan.org if you have any questions about Effective Giving Day for 2022.</p>
 				</div>
 			</div>
 		</div>
