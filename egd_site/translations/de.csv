@@ -117,11 +117,16 @@ registration:dialog:title:registration_subscription,Registrierung
 registration:email:body:click_here_to_verify,Hier klicken um deine E-Mail zu bestätigen
 registration:email:body:verify_your_email,Vielen Dank für dein Interesse am Effective Giving Day! <strong>Bitte bestätige deine E-Mail um deine Registrierung abzuschließen</strong>:
 registration:email:subject,"Bitte bestätige deine E-Mail-Adresse, um deine Anmeldung abzuschließen."
+section:about:intro,Der Effective Giving Day ist eine virtuelle Konferenz mit einigen der weltweit renommiertesten Expertinnen wenn es um die Evaluierung von Hilfsorganisationen und deren Arbeit geht.
+section:about:list:1,Keynote-Speaker: Nobelpreisträger Professor <strong>Michael Kremer</strong>
+section:about:list:2,Unterstützt von den weltweit führenden Organisationen im Bereich effektiver Philanthropie und der Evaluierung von Hilfsorganisationen
+section:about:list:3,"Weitere Expertinnen: Johannes Ackva (Climate Lead <strong>Founders Pledge</strong>), Leah Edgerton (Executive Director <strong>Animal Charity Evaluators</strong>), Neil Buddy Shah (Managing Director, <strong>GiveWell</strong>)"
+section:about:list:4,section:about:list:4
+section:about:title,Über die Veranstaltung
 section:agenda:intro,Nimm Dir am Abend des 30. November 2 Stunden Zeit um von weltweit führenden Expertinnen zu erfahren wie du mit effektiven Spenden dazu beitragen kannst einige der drängendsten Probleme unserer Zeit zu bekämpfen.<br><br>Alle Vorträge sind in englischer Sprache.
 section:agenda:title,Agenda
 section:partners:organized_by,Organisiert von
 section:partners:supported_by,Unterstützt von
-section:partners:register_button,Jetzt registrieren
 section:speakers:intro,section:speakers:Einführung
 section:speakers:see_all_speakers,Alle Referenten
 section:speakers:title,Referenten
