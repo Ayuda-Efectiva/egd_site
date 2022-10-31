@@ -117,10 +117,10 @@ registration:dialog:title:registration_subscription,Registration
 registration:email:body:click_here_to_verify,Click here to verify your email
 registration:email:body:verify_your_email,Thank you for your interest in Effective Giving Day! <strong>Please confirm your email address to complete your registration</strong>:
 registration:email:subject,Please confirm your email address to complete your registration
-section:about:title,What is Effective Giving Day
-section:about:1:intro,If you're feeling overwhelmed by all of the important problems in the world, and you'd like to make a difference, you're not alone.
-section:about:2:intro,Effective Giving Day is designed to help you find causes that need the most support right now, learn how to support them and have a massive impact!
-section:about:3:intro,You will also have the chance to hear from special guests about their approach to effective giving, and the newest insights within philanthropy.
+section:about:1:intro,"If you're feeling overwhelmed by all of the important problems in the world, and you'd like to make a difference, you're not alone."
+section:about:2:intro,"Effective Giving Day is designed to help you find causes that need the most support right now, learn how to support them and have a massive impact!"
+section:about:3:intro,"You will also have the chance to hear from special guests about their approach to effective giving, and the newest insights within philanthropy."
+section:about:title,"What is Effective Giving Day"
 section:agenda:intro,"Join us on November 30, 2020 for two hours packed with the latest information on the most effective ways to tackle some of the world’s most pressing problems."
 section:agenda:title,Agenda
 section:partners:organized_by,Organized by
