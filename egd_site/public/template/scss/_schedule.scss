@@ -18,6 +18,30 @@
 			}
 		}
 	}
+	.table {
+		width: 100%;
+		background-color: #ffffff;
+		border-collapse: collapse;
+		border-width: 2px;
+		border-color: #ebebeb;
+		border-style: solid;
+		color: #000000;
+    }
+    .table td {
+  		border-width: 2px;
+  		border-color: #ebebeb;
+  		border-style: solid;
+  		padding: 3px;
+    }
+    .table th {
+  	  border-width: 2px;
+  	  border-color: #ebebeb;
+  	  border-style: solid;
+  	  padding: 3px;
+    }
+    .table thead {
+  		background-color: #ebebeb;
+    }
 	.card-header-b {
 		cursor: pointer;
 		background-color: #ebeceb;
