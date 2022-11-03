@@ -17,14 +17,14 @@
 	<title>{% block title %}{{ title | striptags }}{{ " | " + _("hero:title") if name != "home" else "" }}{% endblock %}</title>
 	{% block favicon %}
 	{#- https://realfavicongenerator.net/ #}
-	<link rel="apple-touch-icon" sizes="180x180" href="/assets/egd_site/images/favicons/apple-touch-icon.png?{{ ASSETS_VERSION }}">
-	<link rel="icon" type="image/png" sizes="32x32" href="/assets/egd_site/images/favicons/favicon-32x32.png?{{ ASSETS_VERSION }}">
-	<link rel="icon" type="image/png" sizes="16x16" href="/assets/egd_site/images/favicons/favicon-16x16.png?{{ ASSETS_VERSION }}">
-	<link rel="manifest" href="/assets/egd_site/images/favicons/site.webmanifest?{{ ASSETS_VERSION }}">
-	<link rel="mask-icon" href="/assets/egd_site/images/favicons/safari-pinned-tab.svg?{{ ASSETS_VERSION }}" color="#c97053">
-	<link rel="shortcut icon" href="/assets/egd_site/images/favicons/favicon.ico?{{ ASSETS_VERSION }}">
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/egd_site/images/favicons/apple-touch-icon.png?{{ build_version }}">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/egd_site/images/favicons/favicon-32x32.png?{{ build_version }}">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/egd_site/images/favicons/favicon-16x16.png?{{ build_version }}">
+	<link rel="manifest" href="/assets/egd_site/images/favicons/site.webmanifest?{{ build_version }}">
+	<link rel="mask-icon" href="/assets/egd_site/images/favicons/safari-pinned-tab.svg?{{ build_version }}" color="#c97053">
+	<link rel="shortcut icon" href="/assets/egd_site/images/favicons/favicon.ico?{{ build_version }}">
 	<meta name="msapplication-TileColor" content="#efeae4">
-	<meta name="msapplication-config" content="/assets/egd_site/images/favicons/browserconfig.xml?{{ ASSETS_VERSION }}">
+	<meta name="msapplication-config" content="/assets/egd_site/images/favicons/browserconfig.xml?{{ build_version }}">
 	<meta name="theme-color" content="#efeae4">
 	{%- endblock -%}
 
@@ -34,7 +34,7 @@
 		{%- endif %}
 	{%- endblock -%}
 
-	<link type="text/css" rel="stylesheet" href="/assets/css/egd-site.web.min.css?{{ ASSETS_VERSION }}">
+	<link type="text/css" rel="stylesheet" href="/assets/css/egd-site.web.min.css?{{ build_version }}">
 
 	{%- block head_include %}
 		{{ head_include or "" }}
@@ -79,15 +79,15 @@
 	{% include "templates/includes/cookies.message.html" %}
 
 	{%- block base_scripts %}
-	<script src="/assets/frappe/js/lib/jquery/jquery.min.js?{{ ASSETS_VERSION }}"></script>
-	<script src="/assets/js/frappe-web.min.js?{{ ASSETS_VERSION }}"></script>
-	<script src="/assets/js/bootstrap-4-web.min.js?{{ ASSETS_VERSION }}"></script>
-	<script src="/assets/js/egd-site.web.min.js?{{ ASSETS_VERSION }}"></script>
+	<script src="/assets/frappe/js/lib/jquery/jquery.min.js?{{ build_version }}"></script>
+	<script src="/assets/js/frappe-web.min.js?{{ build_version }}"></script>
+	<script src="/assets/js/bootstrap-4-web.min.js?{{ build_version }}"></script>
+	<script src="/assets/js/egd-site.web.min.js?{{ build_version }}"></script>
 	{% endblock -%}
 
 	{%- for link in web_include_js %}
 	{%- if link != "website_script.js" and link != "assets/js/erpnext-web.min.js" %}
-	<script src="{{ link | abs_url }}?{{ ASSETS_VERSION }}"></script>
+	<script src="{{ link | abs_url }}?{{ build_version }}"></script>
 	{%- endif %}
 	{%- endfor -%}
 

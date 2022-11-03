@@ -12,8 +12,6 @@ app_email = "info@ayudaefectiva.org"
 app_license = "MIT"
 
 
-ASSETS_VERSION = "1.0.1.1"
-
 # Site domains & environment
 site_app_domains = {
 	"egd.local": "local",
@@ -85,7 +83,6 @@ update_website_context = [
 ]
 
 website_context = {
-	"ASSETS_VERSION": ASSETS_VERSION,
 	"language_default": language_default,
 }
 
