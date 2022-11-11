@@ -45,22 +45,22 @@ $preset: $color-primary;
 @import "../template/css/animate";
 
 // Global Styles
-@import "../template/scss/global";
+@import "../template/scss/_global";
 
 // Navbar
-@import "../template/scss/navbar";
+@import "../template/scss/_navbar";
 
 // About US Area
-@import "../template/scss/about";
+@import "../template/scss/_about";
 
 // Schedule Areax
-@import "../template/scss/schedule";
+@import "../template/scss/_schedule";
 
 // Service Area
-@import "../template/scss/service";
+@import "../template/scss/_service";
 
 // Team Area
-@import "../template/scss/team";
+@import "../template/scss/_team";
 
 // Contact Area
 .container-form {
@@ -110,10 +110,10 @@ $preset: $color-primary;
 }
 
 // Footer
-@import "../template/scss/footer";
+@import "../template/scss/_footer";
 
 // Carousel
-@import "../template/scss/hero-area";
+@import "../template/scss/_hero-area";
 
 // Responsive
 @import "../template/scss/responsive";
