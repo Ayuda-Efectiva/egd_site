@@ -22,7 +22,7 @@
 	}
 	background: #fff !important;
 	.navbar-nav .nav-link {
-		color: #212121 !important;
+		color: #222222 !important;
 		&:hover {
 			color: $preset !important;
 		}
@@ -126,7 +126,7 @@
 	width: 100%;
 	padding: 12px 20px;
 	font-size: 14px;
-	color: #212121;
+	color: #222222;
 	border-bottom: 1px solid #f1f1f1;
 	text-decoration: none;
 	display: inline-block;
@@ -284,12 +284,12 @@
 	}
 	.navbar-expand-lg .navbar-nav .nav-link{
 		padding: 0;
-		color: #212121;
+		color: #222222;
 		margin-top: 0;
 		margin-bottom: 0;
 	}
 	.top-nav-collapse .navbar-nav .nav-link{
-		color: #212121!important;
+		color: #222222!important;
 	}
 }
 @media(max-width: 767px){
