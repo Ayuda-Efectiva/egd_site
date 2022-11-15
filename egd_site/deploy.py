@@ -65,13 +65,13 @@ def app_site_pull():
 
 def app_site_compile_assets():
 	from subprocess import Popen
-	# bench build --app ae_site
+	# bench build --app egd_site
 	# sudo supervisorctl restart frappe-bench-web:frappe-bench-frappe-web
 	# bench --site all clear-website-cache
-	# cmd = "bench build --app ae_site && sudo supervisorctl restart frappe-bench-web:frappe-bench-frappe-web && bench --site all clear-website-cache"
+	# cmd = "bench build --app egd_site && sudo supervisorctl restart frappe-bench-web:frappe-bench-frappe-web && bench --site all clear-website-cache"
 	# Force use of node version 12
-	# cmd = '{ echo "----- START: $(date)"; echo "node: $(node --version)"; echo "nvm: $(nvm --version)"; . "/home/frappe/.nvm/nvm.sh"; nvm use 12; echo "node: $(node --version)"; bench build --app ae_site; echo "----- END: $(date)"; } 2>&1 >> deploy.log'
+	# cmd = '{ echo "----- START: $(date)"; echo "node: $(node --version)"; echo "nvm: $(nvm --version)"; . "/home/frappe/.nvm/nvm.sh"; nvm use 12; echo "node: $(node --version)"; bench build --app egd_site; echo "----- END: $(date)"; } 2>&1 >> deploy.log'
 	# Force use of node version 14
-	cmd = '{ echo "----- START: $(date)"; echo "node: $(node --version)"; echo "nvm: $(nvm --version)"; . "/home/frappe/.nvm/nvm.sh"; nvm use 14; echo "node: $(node --version)"; bench build --app ae_site; echo "----- END: $(date)"; } 2>&1 >> deploy.log'
+	cmd = '{ echo "----- START: $(date)"; echo "node: $(node --version)"; echo "nvm: $(nvm --version)"; . "/home/frappe/.nvm/nvm.sh"; nvm use 14; echo "node: $(node --version)"; bench build --app egd_site; echo "----- END: $(date)"; } 2>&1 >> deploy.log'
 	Popen(cmd, shell=True, cwd=path_bench, executable="/bin/bash")
 	return { "msg": "app site assets compiling initialized ok" }
