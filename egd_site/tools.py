@@ -72,7 +72,7 @@ def subscribe(email):
 @frappe.whitelist(allow_guest=True, xss_safe=True)
 def confirm_subscription(email):
 	from frappe.utils.verified_command import verify_request
-	if not verify_request():
+	if not email or not verify_request():
 		return
 
 	# Default user message
