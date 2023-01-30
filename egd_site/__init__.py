@@ -155,13 +155,13 @@ frappe.translate.load_lang = egd_load_lang
 # frappe.website.context.add_metatags = egd_add_metatags
 
 
-def egd_add_preload_headers(response):
-	"""Allow externals links preloading"""
-	frappe_add_preload_headers(response)
-	if is_app_for_actual_site() and "Link" in response.headers:
-		response.headers["Link"] = response.headers["Link"].replace("/http", "http")
+# def egd_add_preload_headers(response):
+# 	"""Allow externals links preloading"""
+# 	frappe_add_preload_headers(response)
+# 	if is_app_for_actual_site() and "Link" in response.headers:
+# 		response.headers["Link"] = response.headers["Link"].replace("/http", "http")
 
-from frappe.website.render import add_preload_headers as frappe_add_preload_headers
-frappe.website.render.add_preload_headers = egd_add_preload_headers
+# from frappe.website.render import add_preload_headers as frappe_add_preload_headers
+# frappe.website.render.add_preload_headers = egd_add_preload_headers
 
 # FRAPPE OVERRIDES>
