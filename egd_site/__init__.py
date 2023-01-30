@@ -115,44 +115,44 @@ frappe.translate.load_lang = egd_load_lang
 # frappe.website.render.resolve_redirect = egd_resolve_redirect
 
 
-def egd_add_metatags(context):
-	"""Override `Web Page` Doctype template if CMS page."""
-	if is_app_for_actual_site():
-		# Allow CMS webpages
-		if context.doctype == "Web Page":
-			context.template = "templates/web.html"
+# def egd_add_metatags(context):
+# 	"""Override `Web Page` Doctype template if CMS page."""
+# 	if is_app_for_actual_site():
+# 		# Allow CMS webpages
+# 		if context.doctype == "Web Page":
+# 			context.template = "templates/web.html"
 
-		# Override metatags
-		if not "metatags" in context:
-			context.metatags = frappe._dict({})
+# 		# Override metatags
+# 		if not "metatags" in context:
+# 			context.metatags = frappe._dict({})
 
-		context.metatags["lang"] = frappe.local.lang
-		context.metatags["url"] = context.url
-		context.metatags["og:url"] = context.url
+# 		context.metatags["lang"] = frappe.local.lang
+# 		context.metatags["url"] = context.url
+# 		context.metatags["og:url"] = context.url
 
-		# If blog image or no default use the "summary_large_image" value
-		if "image" in context.metatags and context.metatags["image"]:
-			context.metatags["twitter:card"] = "summary_large_image"
-		else:
-			context.metatags["image"] = frappe.utils.get_url() + "/assets/egd_site/images/logo-square.png"
-			context.metatags["twitter:card"] = "summary"
+# 		# If blog image or no default use the "summary_large_image" value
+# 		if "image" in context.metatags and context.metatags["image"]:
+# 			context.metatags["twitter:card"] = "summary_large_image"
+# 		else:
+# 			context.metatags["image"] = frappe.utils.get_url() + "/assets/egd_site/images/logo-square.png"
+# 			context.metatags["twitter:card"] = "summary"
 
-		if not "title" in context.metatags:
-			context.metatags["title"] = ""
-			if "meta_title" in context:
-				context.metatags["title"] = context["meta_title"]
-			elif context.title:
-				context.metatags["title"] = context.title
-			# Add title suffix except for home
-			if context["path"] != "":
-				from frappe import _
-				context.metatags["title"] += " | " + _("hero:title")
+# 		if not "title" in context.metatags:
+# 			context.metatags["title"] = ""
+# 			if "meta_title" in context:
+# 				context.metatags["title"] = context["meta_title"]
+# 			elif context.title:
+# 				context.metatags["title"] = context.title
+# 			# Add title suffix except for home
+# 			if context["path"] != "":
+# 				from frappe import _
+# 				context.metatags["title"] += " | " + _("hero:title")
 
-		if not "description" in context.metatags and "meta_description" in context:
-			context.metatags["description"] = context["meta_description"]
-	frappe_add_metatags(context)
-from frappe.website.context import add_metatags as frappe_add_metatags
-frappe.website.context.add_metatags = egd_add_metatags
+# 		if not "description" in context.metatags and "meta_description" in context:
+# 			context.metatags["description"] = context["meta_description"]
+# 	frappe_add_metatags(context)
+# from frappe.website.context import add_metatags as frappe_add_metatags
+# frappe.website.context.add_metatags = egd_add_metatags
 
 
 def egd_add_preload_headers(response):
