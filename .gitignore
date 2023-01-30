@@ -3,6 +3,7 @@
 *.egg-info
 *.swp
 tags
+egd_site/public/dist
 egd_site/docs/current
 node_modules
 __pycache__
