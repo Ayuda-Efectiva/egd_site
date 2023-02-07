@@ -19,8 +19,7 @@ site_app_domains = {
 	"egd.ayudaefectiva.org": "preprod",
 }
 
-translated_languages_for_website = ["en"] #, "de", "es"]
-language_default = translated_languages_for_website[0]
+page_renderer = ["egd_site.tools.EgdPageRenderer"]
 
 # Includes in <head>
 # ------------------
@@ -64,11 +63,6 @@ website_redirects = [
 	# Avoid framework contact and about pages being accesible 
 	{ "source": "/about", "target": "/" },
 	{ "source": "/contact", "target": "/" },
-	# # Languages: Remove main language segment. For example,
-	# # if "en" is first one in "translated_languages_for_website"
-	# # then route "/en/example" will be redirected 301 to "/example"
-	# { "source": r"/{0}".format(language_default), "target": "/" },
-	# { "source": r"/{0}/(.*)".format(language_default), "target": r"/\1" },
 ]
 
 # Url rewrites
@@ -81,10 +75,6 @@ website_route_rules = [
 update_website_context = [
 	"egd_site.tools.context_extend",
 ]
-
-website_context = {
-	"language_default": language_default,
-}
 
 # Generators
 # ----------

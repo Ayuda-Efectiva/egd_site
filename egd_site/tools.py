@@ -51,6 +51,28 @@ def context_extend(context):
 	return context
 
 
+class EgdPageRenderer:
+	def __init__(self, path, status_code=None):
+		languages_enabled = { v: k for k, v in frappe.translate.get_lang_dict().items()}
+		# Default lang
+		lang = frappe.db.get_default("lang")
+		# Lang based on starting path: en/page
+		for l in languages_enabled:
+			if l == path or path.startswith(l+"/"):
+				lang = l
+				break
+		# Passed in url lang: [url]?_lang=es
+		if frappe.form_dict._lang and frappe.form_dict._lang in languages_enabled:
+			lang = frappe.form_dict._lang
+		frappe.lang = frappe.local.lang = lang
+
+	def can_render(self):
+		return False
+
+	def render(self):
+		return None
+
+
 @frappe.whitelist(allow_guest=True, xss_safe=True)
 def subscribe(email):
 	from frappe.utils.verified_command import get_signed_params

@@ -32,38 +32,6 @@ def site_env() -> str:
 
 # <FRAPPE OVERRIDES
 
-# def egd_render_page_by_language(path):
-# 	if is_app_for_actual_site():
-# 		from frappe.website.render import render_page
-
-# 		translated_languages = frappe.get_hooks("translated_languages_for_website")
-# 		user_lang = frappe.translate.get_language(translated_languages)
-# 		if not user_lang in translated_languages:
-# 			user_lang = "en"
-
-# 		frappe.lang = user_lang
-# 		frappe.local.lang = user_lang
-
-# 		if translated_languages and translated_languages.index(user_lang) == 0:
-# 			try:
-# 				if path and path in ("login", "desk", "app", "access", "message", "unsubscribe", "translations"):
-# 					lang_path = path
-# 				elif path and path != "index":
-# 					lang_path = '{0}/{1}'.format(user_lang, path)
-# 				else:
-# 					lang_path = user_lang # index
-
-# 				return render_page(lang_path)
-# 			except frappe.DoesNotExistError:
-# 				return render_page(path)
-# 		else:
-# 			return render_page(path)
-# 	else:
-# 		return frappe_render_page_by_language(path)
-# from frappe.website.render import render_page_by_language as frappe_render_page_by_language
-# frappe.website.render.render_page_by_language = egd_render_page_by_language
-
-
 def egd_load_lang(lang, apps=None):
 	"""Checks `en` too"""
 	if is_app_for_actual_site():
@@ -80,8 +48,8 @@ def egd_load_lang(lang, apps=None):
 	else:
 		return frappe_load_lang(lang, apps)
 
-from frappe.translate import load_lang as frappe_load_lang
-frappe.translate.load_lang = egd_load_lang
+from frappe.translate import get_translations_from_apps as frappe_load_lang
+frappe.translate.get_translations_from_apps = egd_load_lang
 
 
 def egd_resolve_redirect(path, query_string=None):
