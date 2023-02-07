@@ -84,35 +84,32 @@ from frappe.translate import load_lang as frappe_load_lang
 frappe.translate.load_lang = egd_load_lang
 
 
-# def egd_resolve_redirect(path):
-# 	if is_app_for_actual_site():
-# 		requested = frappe.local.request.path
-# 		restricted_to = []
+def egd_resolve_redirect(path):
+	if is_app_for_actual_site():
+		requested = frappe.local.request.path
+		restricted_to = []
 
-# 		# Show access password for any host not related to production or local (staging., prod., ...)
-# 		# Allow access to site checker Pulno/0.7 (http://www.pulno.com/bot.html)
-# 		# Allow access to Letsencrypt check
-# 		if site_env() == "preprod" and not path.startswith(".well-known/"):
-# 			user_agent = frappe.local.request.headers.get("User-Agent")
-# 			def is_allowed(user_agent):
-# 				return ("pulno.com/bot.html" in user_agent
-# 					or "letsencrypt.org" in user_agent)
-# 			if not user_agent or not is_allowed(user_agent):
-# 				restricted_to = ["/access"]
+		# Show access password for any host not related to production or local (staging., prod., ...)
+		# Allow access to site checker Pulno/0.7 (http://www.pulno.com/bot.html)
+		# Allow access to Letsencrypt check
+		if site_env() == "preprod" and not path.startswith(".well-known/"):
+			user_agent = frappe.local.request.headers.get("User-Agent")
+			def is_allowed(user_agent):
+				return ("pulno.com/bot.html" in user_agent
+					or "letsencrypt.org" in user_agent)
+			if not user_agent or not is_allowed(user_agent):
+				restricted_to = ["/access"]
 
-# 		if (restricted_to and requested not in restricted_to
-# 			and not requested.startswith("/api/") and not requested.endswith((".js", ".css"))):
-# 			if (not "preview_access" in frappe.local.request.cookies 
-# 				or frappe.local.request.cookies["preview_access"] != frappe.local.conf.RESTRICTED_COOKIE_VALUE):
-# 				frappe.local.flags.redirect_location = "/access"
-# 				raise frappe.Redirect
-# 	frappe_resolve_redirect(path)
+		if (restricted_to and requested not in restricted_to
+			and not requested.startswith("/api/") and not requested.endswith((".js", ".css"))):
+			if (not "preview_access" in frappe.local.request.cookies 
+				or frappe.local.request.cookies["preview_access"] != frappe.local.conf.RESTRICTED_COOKIE_VALUE):
+				frappe.local.flags.redirect_location = "/access"
+				raise frappe.Redirect
+	frappe_resolve_redirect(path)
 
-# from frappe.website.redirect import resolve_redirect as frappe_resolve_redirect
-# frappe.website.redirect.resolve_redirect = egd_resolve_redirect
-# # First import full module `render` to avoid issue when file loading from `bench`
-# import frappe.website.render
-# frappe.website.render.resolve_redirect = egd_resolve_redirect
+from frappe.website.path_resolver import resolve_redirect as frappe_resolve_redirect
+frappe.website.path_resolver.resolve_redirect = egd_resolve_redirect
 
 
 # def egd_add_metatags(context):
