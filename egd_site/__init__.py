@@ -84,7 +84,7 @@ from frappe.translate import load_lang as frappe_load_lang
 frappe.translate.load_lang = egd_load_lang
 
 
-def egd_resolve_redirect(path):
+def egd_resolve_redirect(path, query_string=None):
 	if is_app_for_actual_site():
 		requested = frappe.local.request.path
 		restricted_to = []
