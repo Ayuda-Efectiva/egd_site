@@ -59,13 +59,7 @@ def context_extend(context):
 
 class EgdPageRenderer:
 	def __init__(self, path, status_code=None):
-		# languages_enabled = { v: k for k, v in frappe.translate.get_lang_dict().items()}
-		langs_enabled_raw = frappe.get_all("Language",
-			fields=["language_name", "name"],
-			filters={"enabled": 1},
-			order_by="modified",
-			as_list=True)
-		languages_enabled = { lang[1]: lang[0] for lang in langs_enabled_raw}
+		languages_enabled = { v: k for k, v in frappe.translate.get_lang_dict(enabled_only=True).items()}
 		# Default lang
 		lang = frappe.db.get_default("lang")
 		# Lang based on starting path: en/page
