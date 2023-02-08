@@ -1,6 +1,5 @@
 
 // import '../template/js/waypoints.min'
-alert('TODO: waypoints necesario!?')
 
 import '../template/js/jquery.easing.min'
 import { default as wow } from '../template/js/wow'
@@ -10,11 +9,12 @@ import '../template/js/jquery.slicknav'
 
 let frappe = window.frappe
 
-alert('TODO: países traducidos en contacto¿?¿? necesario!?')
+// Used in contact form to select languages but now page has no forms so commented
 // import isoCountriesLanguages from '@hotosm/iso-countries-languages'
 
 frappe.ready(function() {
 
+	// Used in contact form to select languages but now page has no forms so commented
 	// // COUNTRIES TRANSLATED
 	// // If not available for actual user language return countries in English
 	// let countries = isoCountriesLanguages.getCountries(

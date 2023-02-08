@@ -1,4 +1,5 @@
 ---
+base_template: templates/web.html
 title: Press
 meta_description: Fill in this form and we will put you in touch with the best press contact for your country or area of interest
 sitemap: 1

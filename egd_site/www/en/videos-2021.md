@@ -1,4 +1,5 @@
 ---
+base_template: templates/web.html
 title: 2021 Edition videos
 meta_description: "2021 Edition videos"
 sitemap: 1

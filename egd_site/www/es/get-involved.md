@@ -1,4 +1,5 @@
 ---
+base_template: templates/web.html
 title: Involúcrate
 meta_description: "Involúcrate con la ayuda efectiva: dona, aprende más o difunde el mensaje"
 ---

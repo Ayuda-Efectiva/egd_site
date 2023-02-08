@@ -63,6 +63,25 @@ website_redirects = [
 	# Avoid framework contact and about pages being accesible 
 	{ "source": "/about", "target": "/" },
 	{ "source": "/contact", "target": "/" },
+
+	# Other languages to "en"
+	{ "source": r"/de/(.*)", "target": r"/en/\1" },
+	{ "source": r"/es/(.*)", "target": r"/en/\1" },
+
+	# Default language redirects
+	{ "source": "/", "target": "/en" },
+	{ "source": "/agenda", "target": "/en/agenda" },
+	{ "source": "/cotnact-privacy-text", "target": "/en/cotnact-privacy-text" },
+	{ "source": "/contact-us", "target": "/en/contact-us" },
+	{ "source": "/cookies", "target": "/en/cookies" },
+	{ "source": "/get-involved", "target": "/en/get-involved" },
+	{ "source": "/legal", "target": "/en/legal" },
+	{ "source": "/press", "target": "/en/press" },
+	{ "source": "/privacy-newsletter", "target": "/en/privacy-newsletter" },
+	{ "source": "/privacy", "target": "/en/privacy" },
+	{ "source": "/register", "target": "/en/register" },
+	{ "source": "/speakers", "target": "/en/speakers" },
+	{ "source": "/videos-2021", "target": "/en/videos-2021" },
 ]
 
 # Url rewrites

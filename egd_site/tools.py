@@ -12,13 +12,19 @@ def get_home_page(user:str=""):
 def context_extend(context):
 	context["site_env"] = site_env()
 
-	languages = frappe.get_hooks("translated_languages_for_website")
+	lang = frappe.db.get_default("lang")
+	langs_enabled_raw = frappe.get_all("Language",
+		fields=["language_name", "name"],
+		filters={"enabled": 1, "name": ["!=", lang]},
+		order_by="modified",
+		as_list=True)
+	languages = [lang] + [lang[1] for lang in langs_enabled_raw]
 
 	frappe.local.lang = frappe.local.lang or "en"
 	context["lang"] = frappe.local.lang
 	context["languages"] = languages
 	# context["url_lang"] = "" if frappe.local.lang == languages[0] else "/{0}".format(frappe.local.lang)
-	context["url_lang"] = ""
+	context["url_lang"] = "/{0}".format(frappe.local.lang)
 
 	path = frappe.local.request.path
 
@@ -33,11 +39,11 @@ def context_extend(context):
 
 		context["languages_meta"] = []
 		for language in languages:
-			# Main language: "x-default"
-			if language == languages[0]:
-				meta_url = "{0}".format(path_without_language)
-			else:
-				meta_url = "/{0}{1}".format(language, path_without_language)
+			# # Main language: "x-default"
+			# if language == languages[0]:
+			# 	meta_url = "{0}".format(path_without_language)
+			# else:
+			meta_url = "/{0}{1}".format(language, path_without_language)
 			context["languages_meta"].append({
 				"code": language,
 				"hreflang": "x-default" if language == languages[0] else language,
@@ -53,12 +59,18 @@ def context_extend(context):
 
 class EgdPageRenderer:
 	def __init__(self, path, status_code=None):
-		languages_enabled = { v: k for k, v in frappe.translate.get_lang_dict().items()}
+		# languages_enabled = { v: k for k, v in frappe.translate.get_lang_dict().items()}
+		langs_enabled_raw = frappe.get_all("Language",
+			fields=["language_name", "name"],
+			filters={"enabled": 1},
+			order_by="modified",
+			as_list=True)
+		languages_enabled = { lang[1]: lang[0] for lang in langs_enabled_raw}
 		# Default lang
 		lang = frappe.db.get_default("lang")
 		# Lang based on starting path: en/page
 		for l in languages_enabled:
-			if l == path or path.startswith(l+"/"):
+			if path and (l == path or path.startswith(l+"/")):
 				lang = l
 				break
 		# Passed in url lang: [url]?_lang=es

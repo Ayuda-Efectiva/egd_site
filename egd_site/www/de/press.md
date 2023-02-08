@@ -1,4 +1,5 @@
 ---
+base_template: templates/web.html
 title: Presse
 meta_description: Für Presseanfragen fülle das Formular aus und ein lokaler Ansprechpartner wird sich schnellstmöglich mit dir in Verbindung setzen.
 sitemap: 1

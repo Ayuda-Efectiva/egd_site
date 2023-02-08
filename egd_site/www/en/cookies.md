@@ -1,4 +1,5 @@
 ---
+base_template: templates/web.html
 body_class: legal-content
 ---
 

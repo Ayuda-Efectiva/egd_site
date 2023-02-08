@@ -1,4 +1,5 @@
 ---
+base_template: templates/web.html
 title: Contacto
 meta_description: "Contacta con nosotros: haremos llegar tu email a la persona más adecuada par ayudarte"
 sitemap: 1
