@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
+import copy
 import frappe
 
 __version__ = '2.0.0'
@@ -80,44 +81,58 @@ from frappe.website.path_resolver import resolve_redirect as frappe_resolve_redi
 frappe.website.path_resolver.resolve_redirect = egd_resolve_redirect
 
 
-# def egd_add_metatags(context):
-# 	"""Override `Web Page` Doctype template if CMS page."""
-# 	if is_app_for_actual_site():
-# 		# Allow CMS webpages
-# 		if context.doctype == "Web Page":
-# 			context.template = "templates/web.html"
+def not_extend_context_and_metatags_for_actual_path() -> bool:
+	# Examples of frappe.local.path: '/'='index', '/app'='app', '/folder/file.js?a=1'='folder/file.js',...
+	if (getattr(frappe.local, "path", None)
+		and (
+			frappe.local.path.startswith("app/")
+			or frappe.local.path.startswith("tools/")
+			or frappe.local.path in ["printview", "app", "error", "favicon.ico"]
+			or frappe.local.path.endswith((".js", ".css"))
+		)):
+		return True
+	return False
 
-# 		# Override metatags
-# 		if not "metatags" in context:
-# 			context.metatags = frappe._dict({})
 
-# 		context.metatags["lang"] = frappe.local.lang
-# 		context.metatags["url"] = context.url
-# 		context.metatags["og:url"] = context.url
+from frappe.website.website_components.metatags import MetaTags
+frappe_website_website_components_metatags_set_metatags_from_website_route_meta = copy.copy(
+	MetaTags.set_metatags_from_website_route_meta)
+def ae_MetaTags_set_metatags_from_website_route_meta(self):
+	frappe_website_website_components_metatags_set_metatags_from_website_route_meta(self)
+	if is_app_for_actual_site():
+		if not_extend_context_and_metatags_for_actual_path():
+			return
 
-# 		# If blog image or no default use the "summary_large_image" value
-# 		if "image" in context.metatags and context.metatags["image"]:
-# 			context.metatags["twitter:card"] = "summary_large_image"
-# 		else:
-# 			context.metatags["image"] = frappe.utils.get_url() + "/assets/egd_site/images/logo-square.png"
-# 			context.metatags["twitter:card"] = "summary"
+		# # Allow CMS webpages
+		# if context.doctype == "Web Page":
+		# 	context.template = "templates/web.html"
 
-# 		if not "title" in context.metatags:
-# 			context.metatags["title"] = ""
-# 			if "meta_title" in context:
-# 				context.metatags["title"] = context["meta_title"]
-# 			elif context.title:
-# 				context.metatags["title"] = context.title
-# 			# Add title suffix except for home
-# 			if context["path"] != "":
-# 				from frappe import _
-# 				context.metatags["title"] += " | " + _("hero:title")
+		# ¡¡PRECAUCIÓN!! Si estás logueado como usuario este idioma será el definido en tu cuenta
+		self.tags.language = frappe.local.lang or frappe.db.get_default("lang")
+		self.tags.url = frappe.local.request.base_url
+		self.tags["og:url"] = self.tags.url
 
-# 		if not "description" in context.metatags and "meta_description" in context:
-# 			context.metatags["description"] = context["meta_description"]
-# 	frappe_add_metatags(context)
-# from frappe.website.context import add_metatags as frappe_add_metatags
-# frappe.website.context.add_metatags = egd_add_metatags
+		# If blog image or no default use the "summary_large_image" value
+		if self.tags.image:
+			self.tags["twitter:card"] = "summary_large_image"
+		else:
+			self.tags.image = frappe.utils.get_url() + "/assets/egd_site/images/logo-square.png"
+			self.tags["twitter:card"] = "summary"
+
+		if not self.tags.title:
+			self.tags.title = ""
+			if self.context.meta_title:
+				self.tags.title = self.context.meta_title
+			elif self.context.title:
+				self.tags.title = self.context.title
+			# Add title suffix except for home
+			if self.path != "":
+				from frappe import _
+				self.tags.title += " | " + _("hero:title")
+
+		if not self.tags.description and self.context.meta_description:
+			self.tags.description = self.context.meta_description
+MetaTags.set_metatags_from_website_route_meta = ae_MetaTags_set_metatags_from_website_route_meta
 
 
 # def egd_add_preload_headers(response):
