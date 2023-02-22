@@ -26,6 +26,9 @@ def context_extend(context):
 	# context["url_lang"] = "" if frappe.local.lang == languages[0] else "/{0}".format(frappe.local.lang)
 	context["url_lang"] = "/{0}".format(frappe.local.lang)
 
+	context.ae_path = frappe.local.path # u/474
+	context.ae_url = frappe.utils.get_url(frappe.local.path) # https:...:443/u/474
+
 	path = frappe.local.request.path
 
 	# Below context not needed for JS/CSS
