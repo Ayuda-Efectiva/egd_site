@@ -1,7 +1,7 @@
 [project]
 name = "egd_site"
 authors = [
-    { name = "Ayuda Efectiva", email = "info_ayudaefectiva_org"}
+    { name = "Ayuda Efectiva" }
 ]
 description = "EGD Site"
 requires-python = ">=3.10"
