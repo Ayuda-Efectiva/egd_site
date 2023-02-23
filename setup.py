@@ -1,18 +1,6 @@
-from setuptools import setup, find_packages
+# TODO: Remove this file when  v15.0.0 is released
+from setuptools import setup
 
-with open("requirements.txt") as f:
-	install_requires = f.read().strip().split("\n")
+name = "egd_site"
 
-from egd_site import __version__ as version
-
-setup(
-	name='egd_site',
-	version=version,
-	description='Effective Altruism Day Website',
-	author='Fundación Ayuda Efectiva',
-	author_email='info_ayudaefectiva_org',
-	packages=find_packages(),
-	zip_safe=False,
-	include_package_data=True,
-	install_requires=install_requires
-)
+setup()
