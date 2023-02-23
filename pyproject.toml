@@ -1,0 +1,11 @@
+[project]
+name = "egd_site"
+authors = [
+    { name = "Ayuda Efectiva", email = "info_ayudaefectiva_org"}
+]
+description = "EGD Site"
+requires-python = ">=3.10"
+readme = "README.md"
+dynamic = ["version"]
+dependencies = [
+]
