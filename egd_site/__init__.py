@@ -62,7 +62,9 @@ def egd_resolve_redirect(path, query_string=None):
 		# Allow access to site checker Pulno/0.7 (http://www.pulno.com/bot.html)
 		# Allow access to Letsencrypt check
 		if site_env() == "preprod" and not path.startswith(".well-known/"):
-			user_agent = frappe.local.request.headers.get("User-Agent")
+			user_agent = None
+			if hasattr(frappe.local, "request") and hasattr(frappe.local.request, "headers"):
+				user_agent = frappe.local.request.headers.get("User-Agent")
 			def is_allowed(user_agent):
 				return ("pulno.com/bot.html" in user_agent
 					or "letsencrypt.org" in user_agent)
