@@ -20,15 +20,6 @@ bench init frappe-bench
 ```
 
 
-## Change to version 13 & setup requirements
-
-```
-cd ~/frappe-bench
-bench switch-to-branch version-13
-bench setup requirements
-```
-
-
 ## Install "egd_site" app
 
 ```
