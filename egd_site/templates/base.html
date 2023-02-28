@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link href="{{ url }}{{ "/" + path if path else "" }}" rel="canonical">
+	<link rel="canonical" href="{{ ae_url }}">
 
 	{# https://support.google.com/webmasters/answer/182192?hl=en #}
 	{% for language in languages_meta -%}
@@ -34,7 +34,7 @@
 		{%- endif %}
 	{%- endblock -%}
 
-	<link type="text/css" rel="stylesheet" href="/assets/css/egd-site.web.min.css?{{ build_version }}">
+	{{ include_style('egd-site.web.bundle.css') }}
 
 	{%- block head_include %}
 		{{ head_include or "" }}
@@ -47,6 +47,8 @@
 		frappe.ready_events = []
 		frappe.ready = function(fn) { frappe.ready_events.push(fn) }
 		window.dev_server = {{ dev_server }}
+		window.socketio_port = {{ (frappe.socketio_port or 'null') }}
+		window.show_language_picker = {{ show_language_picker or 'false' }}
 		window.context = {
 			site_env: '{{ site_env }}',
 			lang: '{{ lang }}',
@@ -68,7 +70,7 @@
 	</script>
 	{% endif %}
 </head>
-<body data-path="{{ path | e }}" {% if template and template.endswith('.md') %}frappe-content-type="markdown"{% endif %} class="{% if body_class %}{{ body_class }}{% endif %}">
+<body data-path="{{ ae_path | e }}" {% if template and template.endswith('.md') %}frappe-content-type="markdown"{% endif %} class="{% if body_class %}{{ body_class }}{% endif %}">
 
 	<div class="page {{ 'with-sidebar' if show_sidebar else 'without-sidebar' }}" id="page-{{ (name or route) | e | replace("/", "-") }}" data-path="{{ pathname | e | replace("/", "-") }}">
 
@@ -79,15 +81,13 @@
 	{% include "templates/includes/cookies.message.html" %}
 
 	{%- block base_scripts %}
-	<script src="/assets/frappe/js/lib/jquery/jquery.min.js?{{ build_version }}"></script>
-	<script src="/assets/js/frappe-web.min.js?{{ build_version }}"></script>
-	<script src="/assets/js/bootstrap-4-web.min.js?{{ build_version }}"></script>
-	<script src="/assets/js/egd-site.web.min.js?{{ build_version }}"></script>
+	{{ include_script('frappe-web.bundle.js') }}
+	{{ include_script('egd-site.web.bundle.js') }}
 	{% endblock -%}
 
 	{%- for link in web_include_js %}
-	{%- if link != "website_script.js" and link != "assets/js/erpnext-web.min.js" %}
-	<script src="{{ link | abs_url }}?{{ build_version }}"></script>
+	{%- if link != "website_script.js" and not "erpnext-web" in link %}
+	{{ include_script(link) }}
 	{%- endif %}
 	{%- endfor -%}
 

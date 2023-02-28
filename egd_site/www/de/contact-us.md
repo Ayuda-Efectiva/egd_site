@@ -1,4 +1,5 @@
 ---
+base_template: templates/web.html
 title: Kontakt
 meta_description: "Sende uns eine Nachricht und wir werden uns schnellstmöglich mit Dir in Verbindung setzen."
 sitemap: 1

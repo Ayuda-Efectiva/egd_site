@@ -1,4 +1,5 @@
 ---
+base_template: templates/web.html
 title: Prensa
 meta_description: Completa este formulario y te pondremos en contacto con el mejor contacto de prensa para tu país o tu área de interés
 sitemap: 1

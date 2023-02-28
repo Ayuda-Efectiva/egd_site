@@ -1,21 +1,31 @@
 
+// import '../template/js/waypoints.min'
+
+import '../template/js/jquery.easing.min'
+import { default as wow } from '../template/js/wow'
+window.WOW = wow.WOW
+
+import '../template/js/jquery.slicknav' 
+
 let frappe = window.frappe
 
-import isoCountriesLanguages from '@hotosm/iso-countries-languages'
+// Used in contact form to select languages but now page has no forms so commented
+// import isoCountriesLanguages from '@hotosm/iso-countries-languages'
 
 frappe.ready(function() {
 
-	// COUNTRIES TRANSLATED
-	// If not available for actual user language return countries in English
-	let countries = isoCountriesLanguages.getCountries(
-		isoCountriesLanguages.getSupportedLangs().indexOf(window.context.lang) > -1 ? window.context.lang : 'en'
-	)
-	let countries_sorted = Object.keys(countries).sort((a, b) => countries[a].localeCompare(countries[b]))
-	$('select.select-countries').each((idx, el) => {
-		$.each(countries_sorted, (idx, iso) => {
-			$(el).append($('<option></option>').val(iso).html(countries[iso]))
-		})
-	})
+	// Used in contact form to select languages but now page has no forms so commented
+	// // COUNTRIES TRANSLATED
+	// // If not available for actual user language return countries in English
+	// let countries = isoCountriesLanguages.getCountries(
+	// 	isoCountriesLanguages.getSupportedLangs().indexOf(window.context.lang) > -1 ? window.context.lang : 'en'
+	// )
+	// let countries_sorted = Object.keys(countries).sort((a, b) => countries[a].localeCompare(countries[b]))
+	// $('select.select-countries').each((idx, el) => {
+	// 	$.each(countries_sorted, (idx, iso) => {
+	// 		$(el).append($('<option></option>').val(iso).html(countries[iso]))
+	// 	})
+	// })
 
 
 	$('#preloader').fadeOut()
