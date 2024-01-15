@@ -33,24 +33,24 @@ def site_env() -> str:
 
 # <FRAPPE OVERRIDES
 
-def egd_load_lang(lang, apps=None):
-	"""Checks `en` too"""
-	if is_app_for_actual_site():
-		import os
-		from frappe.translate import get_translation_dict_from_file
-		out = frappe.cache().hget("lang_full_dict", lang, shared=True)
-		if not out:
-			out = {}
-			for app in (apps or frappe.get_all_apps(True)):
-				path = os.path.join(frappe.get_pymodule_path(app), "translations", lang + ".csv")
-				out.update(get_translation_dict_from_file(path, lang, app) or {})
-			frappe.cache().hset("lang_full_dict", lang, out, shared=True)
-		return out or {}
-	else:
-		return frappe_load_lang(lang, apps)
+# def egd_load_lang(lang, apps=None):
+# 	"""Checks `en` too"""
+# 	if is_app_for_actual_site():
+# 		import os
+# 		from frappe.translate import get_translation_dict_from_file
+# 		out = frappe.cache().hget("lang_full_dict", lang, shared=True)
+# 		if not out:
+# 			out = {}
+# 			for app in (apps or frappe.get_all_apps(True)):
+# 				path = os.path.join(frappe.get_pymodule_path(app), "translations", lang + ".csv")
+# 				out.update(get_translation_dict_from_file(path, lang, app) or {})
+# 			frappe.cache().hset("lang_full_dict", lang, out, shared=True)
+# 		return out or {}
+# 	else:
+# 		return frappe_load_lang(lang, apps)
 
-from frappe.translate import get_translations_from_apps as frappe_load_lang
-frappe.translate.get_translations_from_apps = egd_load_lang
+# from frappe.translate import get_translations_from_apps as frappe_load_lang
+# frappe.translate.get_translations_from_apps = egd_load_lang
 
 
 def egd_resolve_redirect(path, query_string=None):
