@@ -58,6 +58,8 @@ get_website_user_home_page = "egd_site.tools.get_home_page"
 # Url 301 redirects
 
 website_redirects = [
+	{ "source": r"/.*", "target": r"https://forum.effectivealtruism.org/topics/effective-giving" },
+
 	{ "source": "/index", "target": "/" },
 	{ "source": "/index.html", "target": "/" },
 	# Avoid framework contact and about pages being accesible 
